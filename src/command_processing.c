@@ -321,7 +321,7 @@ void infoSend(void){
 
 void infoGet(uint16 info_type) {
     char CYDATA packet_string[4000] = "";
-    char CYDATA str_sd_data[20000] = "";
+
     //==================================     choose info type and prepare string
 
     switch (info_type) {

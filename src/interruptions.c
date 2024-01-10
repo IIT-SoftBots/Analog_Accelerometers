@@ -269,7 +269,7 @@ void function_scheduler(void) {
  
     static uint16 counter_calibration = DIV_INIT_VALUE;
     static uint16 counter_tension_func = DIV_INIT_VALUE;
-    char info_[2500] = "";
+    
     
     uint8 MOTOR_IDX = 0;
     uint8 SECOND_MOTOR_IDX = 1;

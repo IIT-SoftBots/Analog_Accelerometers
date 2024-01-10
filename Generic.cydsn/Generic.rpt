@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.363ms
+Loading plugins phase: Elapsed time ==> 0s.252ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -d CY8C5888LTI-LP097 -s C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -d CY8C5888LTI-LP097 -s C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 5s.752ms
+Elaboration phase: Elapsed time ==> 3s.977ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.205ms
+HDL generation phase: Elapsed time ==> 0s.146ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -25,23 +25,23 @@ HDL generation phase: Elapsed time ==> 0s.205ms
 ======================================================================
 Compiling:  Generic.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -dcpsoc3 Generic.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -dcpsoc3 Generic.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  Generic.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -dcpsoc3 Generic.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -dcpsoc3 Generic.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  Generic.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -dcpsoc3 -verilog Generic.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -dcpsoc3 -verilog Generic.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Wed Jan 10 17:01:47 2024
+Wed Jan 10 17:51:17 2024
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 Generic.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Wed Jan 10 17:01:47 2024
+Wed Jan 10 17:51:17 2024
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'
@@ -128,11 +128,11 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  Generic.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -dcpsoc3 -verilog Generic.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -dcpsoc3 -verilog Generic.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Wed Jan 10 17:01:48 2024
+Wed Jan 10 17:51:19 2024
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -143,9 +143,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\codegentemp\Generic.ctl'.
+Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\codegentemp\Generic.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
-Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\codegentemp\Generic.v'.
+Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\codegentemp\Generic.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
@@ -183,11 +183,11 @@ tovif:  No errors.
 ======================================================================
 Compiling:  Generic.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -dcpsoc3 -verilog Generic.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -dcpsoc3 -verilog Generic.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Wed Jan 10 17:01:51 2024
+Wed Jan 10 17:51:21 2024
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -198,9 +198,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\codegentemp\Generic.ctl'.
+Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\codegentemp\Generic.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
-Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\codegentemp\Generic.v'.
+Linking 'C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\codegentemp\Generic.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
@@ -1215,10 +1215,6 @@ Aliasing Net_3872 to zero
 Aliasing \CYCLES_TIMER:Net_102\ to tmpOE__EMG_1_net_0
 Aliasing tmpOE__CS_on_board_IMU_net_0 to tmpOE__EMG_1_net_0
 Aliasing tmpOE__MISO_net_0 to tmpOE__EMG_1_net_0
-Aliasing tmpOE__CS_RTC_net_0 to tmpOE__EMG_1_net_0
-Aliasing tmpOE__CLK_RTC_net_0 to tmpOE__EMG_1_net_0
-Aliasing tmpOE__MOSI_RTC_net_0 to tmpOE__EMG_1_net_0
-Aliasing tmpOE__MISO_RTC_net_0 to tmpOE__EMG_1_net_0
 Aliasing \SPI_IMU:BSPIM:pol_supprt\ to tmpOE__EMG_1_net_0
 Aliasing \SPI_IMU:BSPIM:tx_status_6\ to zero
 Aliasing \SPI_IMU:BSPIM:tx_status_5\ to zero
@@ -1402,8 +1398,8 @@ Removing Lhs of wire tmpOE__EMG_3_net_0[20] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__EMG_4_net_0[27] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__EMG_5_net_0[34] = tmpOE__EMG_1_net_0[4]
 Removing Rhs of wire Net_5460[41] = cmp_vv_vv_MODGEN_2[248]
-Removing Rhs of wire Net_5460[41] = \MODULE_8:g1:a0:xeq\[3269]
-Removing Rhs of wire Net_5460[41] = \MODULE_8:g1:a0:gx:u0:aeqb_1\[3248]
+Removing Rhs of wire Net_5460[41] = \MODULE_8:g1:a0:xeq\[3245]
+Removing Rhs of wire Net_5460[41] = \MODULE_8:g1:a0:gx:u0:aeqb_1\[3224]
 Removing Lhs of wire \BasicCounter:add_vi_vv_MODGEN_1_3\[42] = \BasicCounter:MODULE_1:g2:a0:s_3\[205]
 Removing Lhs of wire \BasicCounter:add_vi_vv_MODGEN_1_2\[44] = \BasicCounter:MODULE_1:g2:a0:s_2\[206]
 Removing Lhs of wire \BasicCounter:add_vi_vv_MODGEN_1_1\[46] = \BasicCounter:MODULE_1:g2:a0:s_1\[207]
@@ -1438,10 +1434,10 @@ Removing Lhs of wire \BasicCounter:MODULE_1:g2:a0:a_0\[115] = \BasicCounter:MODI
 Removing Lhs of wire \BasicCounter:MODIN1_0\[116] = Net_5190_0[47]
 Removing Lhs of wire \BasicCounter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[246] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire \BasicCounter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[247] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_4627[250] = \ADC_SOC:control_out_0\[3182]
-Removing Rhs of wire Net_4627[250] = \ADC_SOC:control_0\[3205]
+Removing Rhs of wire Net_4627[250] = \ADC_SOC:control_out_0\[3158]
+Removing Rhs of wire Net_4627[250] = \ADC_SOC:control_0\[3181]
 Removing Lhs of wire AMuxHw_Decoder_enable[255] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire cmp_vv_vv_MODGEN_3[257] = \MODULE_9:g1:a0:xeq\[3343]
+Removing Lhs of wire cmp_vv_vv_MODGEN_3[257] = \MODULE_9:g1:a0:xeq\[3319]
 Removing Lhs of wire tmpOE__EMG_6_net_0[284] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__VOLTAGE_SENSE_2_net_0[290] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__CURRENT_SENSE_2_net_0[296] = tmpOE__EMG_1_net_0[4]
@@ -1449,8 +1445,8 @@ Removing Lhs of wire tmpOE__VOLTAGE_SENSE_1_net_0[302] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__CURRENT_SENSE_1_net_0[308] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__EMG_A_net_0[314] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__MOSI_net_0[321] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_1458[322] = \SPI_IMU:BSPIM:mosi_fin\[1225]
-Removing Rhs of wire Net_1458[322] = \SPI_IMU:BSPIM:mosi_cpha_1\[1226]
+Removing Rhs of wire Net_1458[322] = \SPI_IMU:BSPIM:mosi_fin\[1201]
+Removing Rhs of wire Net_1458[322] = \SPI_IMU:BSPIM:mosi_cpha_1\[1202]
 Removing Lhs of wire tmpOE__SCLK_net_0[328] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire \Chip_Select_IMU:clk\[334] = zero[5]
 Removing Lhs of wire \Chip_Select_IMU:rst\[335] = zero[5]
@@ -1467,7 +1463,7 @@ Removing Rhs of wire Net_9969[370] = \PWM_MOTORS:PWMUDB:pwm1_i_reg\[562]
 Removing Lhs of wire \MOTOR_DIR_1:clk\[372] = zero[5]
 Removing Lhs of wire \MOTOR_DIR_1:rst\[373] = zero[5]
 Removing Lhs of wire tmpOE__MOTOR_1B_net_0[399] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_9767[400] = \mux_3:tmp__mux_3_reg\[3110]
+Removing Rhs of wire Net_9767[400] = \mux_3:tmp__mux_3_reg\[3086]
 Removing Lhs of wire tmpOE__FTDI_ENABLE_net_0[406] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__RS485_CTS_net_0[412] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire Net_9919[417] = zero[5]
@@ -1524,7 +1520,7 @@ Removing Lhs of wire \PWM_MOTORS:PWMUDB:MODULE_2:g2:a0:g1:z1:s0:g1:u0:c_0\[770] 
 Removing Lhs of wire \PWM_MOTORS:PWMUDB:MODULE_2:g2:a0:g1:z1:s0:g1:u0:b_0\[771] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__CS3_net_0[780] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__MOTOR_1A_net_0[787] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_9772[788] = \mux_4:tmp__mux_4_reg\[3139]
+Removing Rhs of wire Net_9772[788] = \mux_4:tmp__mux_4_reg\[3115]
 Removing Lhs of wire \PACER_TIMER:Net_260\[795] = zero[5]
 Removing Lhs of wire \PACER_TIMER:Net_266\[796] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire Net_3249[797] = zero[5]
@@ -1545,8 +1541,8 @@ Removing Lhs of wire \FF_STATUS:status_6\[841] = zero[5]
 Removing Lhs of wire \FF_STATUS:status_7\[842] = zero[5]
 Removing Lhs of wire \MY_TIMER:Net_260\[846] = zero[5]
 Removing Lhs of wire \MY_TIMER:Net_266\[847] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_4386[848] = \MY_TIMER_REG:control_out_0\[3086]
-Removing Rhs of wire Net_4386[848] = \MY_TIMER_REG:control_0\[3109]
+Removing Rhs of wire Net_4386[848] = \MY_TIMER_REG:control_out_0\[3062]
+Removing Rhs of wire Net_4386[848] = \MY_TIMER_REG:control_0\[3085]
 Removing Lhs of wire \MY_TIMER:Net_102\[854] = tmpOE__EMG_1_net_0[4]
 Removing Rhs of wire Net_6117[858] = \UART_RS485:BUART:rx_interrupt_out\[879]
 Removing Lhs of wire \UART_RS485:Net_61\[859] = Net_124[860]
@@ -1656,415 +1652,411 @@ Removing Rhs of wire Net_345[1173] = \CYCLES_TIMER:Net_51\[1169]
 Removing Lhs of wire \CYCLES_TIMER:Net_102\[1174] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__CS_on_board_IMU_net_0[1178] = tmpOE__EMG_1_net_0[4]
 Removing Lhs of wire tmpOE__MISO_net_0[1185] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__CS_RTC_net_0[1191] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__CLK_RTC_net_0[1197] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__MOSI_RTC_net_0[1203] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__MISO_RTC_net_0[1209] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \SPI_IMU:Net_276\[1214] = Net_2334[419]
-Removing Rhs of wire \SPI_IMU:BSPIM:load_rx_data\[1217] = \SPI_IMU:BSPIM:dpcounter_one_reg\[1218]
-Removing Lhs of wire \SPI_IMU:BSPIM:pol_supprt\[1219] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \SPI_IMU:BSPIM:miso_to_dp\[1220] = \SPI_IMU:Net_244\[1221]
-Removing Lhs of wire \SPI_IMU:Net_244\[1221] = Net_1469[1186]
-Removing Rhs of wire \SPI_IMU:BSPIM:tx_status_1\[1247] = \SPI_IMU:BSPIM:dpMOSI_fifo_empty\[1248]
-Removing Rhs of wire \SPI_IMU:BSPIM:tx_status_2\[1249] = \SPI_IMU:BSPIM:dpMOSI_fifo_not_full\[1250]
-Removing Lhs of wire \SPI_IMU:BSPIM:tx_status_3\[1251] = \SPI_IMU:BSPIM:dpcounter_one\[1243]
-Removing Rhs of wire \SPI_IMU:BSPIM:rx_status_4\[1253] = \SPI_IMU:BSPIM:dpMISO_fifo_full\[1254]
-Removing Rhs of wire \SPI_IMU:BSPIM:rx_status_5\[1255] = \SPI_IMU:BSPIM:dpMISO_fifo_not_empty\[1256]
-Removing Lhs of wire \SPI_IMU:BSPIM:tx_status_6\[1258] = zero[5]
-Removing Lhs of wire \SPI_IMU:BSPIM:tx_status_5\[1259] = zero[5]
-Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_3\[1260] = zero[5]
-Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_2\[1261] = zero[5]
-Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_1\[1262] = zero[5]
-Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_0\[1263] = zero[5]
-Removing Lhs of wire \SPI_IMU:Net_273\[1273] = zero[5]
-Removing Lhs of wire \SPI_IMU:Net_289\[1313] = zero[5]
-Removing Lhs of wire tmpOE__CS1_net_0[1317] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \MOTOR_DIR_2:clk\[1323] = zero[5]
-Removing Lhs of wire \MOTOR_DIR_2:rst\[1324] = zero[5]
-Removing Rhs of wire Net_3021[1325] = \MOTOR_DIR_2:control_out_0\[1326]
-Removing Rhs of wire Net_3021[1325] = \MOTOR_DIR_2:control_0\[1349]
-Removing Rhs of wire Net_3058[1359] = \demux_2:tmp__demux_2_0_reg\[1350]
-Removing Rhs of wire Net_3059[1360] = \demux_2:tmp__demux_2_1_reg\[1352]
-Removing Rhs of wire Net_3060[1361] = \demux_2:tmp__demux_2_2_reg\[1353]
-Removing Rhs of wire Net_3061[1362] = \demux_2:tmp__demux_2_3_reg\[1354]
-Removing Rhs of wire Net_9687[1363] = \demux_2:tmp__demux_2_4_reg\[1355]
-Removing Lhs of wire tmpOE__CS0_net_0[1368] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__LED_RED_net_0[1375] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:ctrl_enable\[1395] = \BLINK_05HZ:PWMUDB:control_7\[1387]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:hwCapture\[1405] = zero[5]
-Removing Rhs of wire Net_3925[1407] = \BLINK_CTRL_EN:control_out_0\[1773]
-Removing Rhs of wire Net_3925[1407] = \BLINK_CTRL_EN:control_0\[1796]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:trig_out\[1411] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:runmode_enable\\R\[1413] = zero[5]
-Removing Lhs of wire Net_7326[1414] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:runmode_enable\\S\[1415] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:final_enable\[1416] = \BLINK_05HZ:PWMUDB:runmode_enable\[1412]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:ltch_kill_reg\\R\[1420] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:ltch_kill_reg\\S\[1421] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:min_kill_reg\\R\[1422] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:min_kill_reg\\S\[1423] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:final_kill\[1426] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:add_vi_vv_MODGEN_8_1\[1430] = \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:s_1\[1696]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:add_vi_vv_MODGEN_8_0\[1432] = \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:s_0\[1697]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_1\\R\[1433] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_1\\S\[1434] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_0\\R\[1435] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_0\\S\[1436] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:cs_addr_2\[1438] = \BLINK_05HZ:PWMUDB:tc_i\[1418]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:cs_addr_1\[1439] = \BLINK_05HZ:PWMUDB:runmode_enable\[1412]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:cs_addr_0\[1440] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm1_i\[1527] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm2_i\[1529] = zero[5]
-Removing Rhs of wire \BLINK_05HZ:Net_96\[1532] = \BLINK_05HZ:PWMUDB:pwm_i_reg\[1524]
-Removing Rhs of wire \BLINK_05HZ:PWMUDB:pwm_temp\[1535] = \BLINK_05HZ:PWMUDB:cmp1\[1536]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_23\[1578] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_22\[1579] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_21\[1580] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_20\[1581] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_19\[1582] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_18\[1583] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_17\[1584] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_16\[1585] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_15\[1586] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_14\[1587] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_13\[1588] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_12\[1589] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_11\[1590] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_10\[1591] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_9\[1592] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_8\[1593] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_7\[1594] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_6\[1595] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_5\[1596] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_4\[1597] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_3\[1598] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_2\[1599] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_1\[1600] = \BLINK_05HZ:PWMUDB:MODIN5_1\[1601]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODIN5_1\[1601] = \BLINK_05HZ:PWMUDB:dith_count_1\[1429]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_0\[1602] = \BLINK_05HZ:PWMUDB:MODIN5_0\[1603]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODIN5_0\[1603] = \BLINK_05HZ:PWMUDB:dith_count_0\[1431]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:c_0\[1735] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_0\[1736] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_5579[1737] = \BLINK_05HZ:Net_96\[1532]
-Removing Lhs of wire \LED_CTRL:clk\[1744] = zero[5]
-Removing Lhs of wire \LED_CTRL:rst\[1745] = zero[5]
-Removing Rhs of wire Net_7450[1746] = \LED_CTRL:control_out_0\[1747]
-Removing Rhs of wire Net_7450[1746] = \LED_CTRL:control_0\[1770]
-Removing Rhs of wire Net_7694[1748] = \LED_CTRL:control_out_1\[1749]
-Removing Rhs of wire Net_7694[1748] = \LED_CTRL:control_1\[1769]
-Removing Lhs of wire \BLINK_CTRL_EN:clk\[1771] = zero[5]
-Removing Lhs of wire \BLINK_CTRL_EN:rst\[1772] = zero[5]
-Removing Rhs of wire Net_5930[1774] = \BLINK_CTRL_EN:control_out_1\[1775]
-Removing Rhs of wire Net_5930[1774] = \BLINK_CTRL_EN:control_1\[1795]
-Removing Lhs of wire tmpOE__LED_GREEN_net_0[1798] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:ctrl_enable\[1817] = \BLINK_25HZ:PWMUDB:control_7\[1809]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:hwCapture\[1827] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:trig_out\[1832] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:runmode_enable\\R\[1834] = zero[5]
-Removing Lhs of wire Net_7185[1835] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:runmode_enable\\S\[1836] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:final_enable\[1837] = \BLINK_25HZ:PWMUDB:runmode_enable\[1833]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:ltch_kill_reg\\R\[1841] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:ltch_kill_reg\\S\[1842] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:min_kill_reg\\R\[1843] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:min_kill_reg\\S\[1844] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:final_kill\[1847] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:add_vi_vv_MODGEN_9_1\[1851] = \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:s_1\[2069]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:add_vi_vv_MODGEN_9_0\[1853] = \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:s_0\[2070]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_1\\R\[1854] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_1\\S\[1855] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_0\\R\[1856] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_0\\S\[1857] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:cs_addr_2\[1859] = \BLINK_25HZ:PWMUDB:tc_i\[1839]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:cs_addr_1\[1860] = \BLINK_25HZ:PWMUDB:runmode_enable\[1833]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:cs_addr_0\[1861] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm1_i\[1900] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm2_i\[1902] = zero[5]
-Removing Rhs of wire \BLINK_25HZ:Net_96\[1905] = \BLINK_25HZ:PWMUDB:pwm_i_reg\[1897]
-Removing Rhs of wire \BLINK_25HZ:PWMUDB:pwm_temp\[1908] = \BLINK_25HZ:PWMUDB:cmp1\[1909]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_23\[1951] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_22\[1952] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_21\[1953] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_20\[1954] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_19\[1955] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_18\[1956] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_17\[1957] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_16\[1958] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_15\[1959] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_14\[1960] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_13\[1961] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_12\[1962] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_11\[1963] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_10\[1964] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_9\[1965] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_8\[1966] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_7\[1967] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_6\[1968] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_5\[1969] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_4\[1970] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_3\[1971] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_2\[1972] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_1\[1973] = \BLINK_25HZ:PWMUDB:MODIN6_1\[1974]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODIN6_1\[1974] = \BLINK_25HZ:PWMUDB:dith_count_1\[1850]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_0\[1975] = \BLINK_25HZ:PWMUDB:MODIN6_0\[1976]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODIN6_0\[1976] = \BLINK_25HZ:PWMUDB:dith_count_0\[1852]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:c_0\[2108] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_0\[2109] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_7667[2110] = \BLINK_25HZ:Net_96\[1905]
-Removing Lhs of wire \ADC_N_CHANNELS_USED:clk\[2117] = zero[5]
-Removing Lhs of wire \ADC_N_CHANNELS_USED:rst\[2118] = zero[5]
-Removing Rhs of wire Net_7046_3[2127] = \ADC_N_CHANNELS_USED:control_out_3\[2128]
-Removing Rhs of wire Net_7046_3[2127] = \ADC_N_CHANNELS_USED:control_3\[2140]
-Removing Rhs of wire Net_7046_2[2129] = \ADC_N_CHANNELS_USED:control_out_2\[2130]
-Removing Rhs of wire Net_7046_2[2129] = \ADC_N_CHANNELS_USED:control_2\[2141]
-Removing Rhs of wire Net_7046_1[2131] = \ADC_N_CHANNELS_USED:control_out_1\[2132]
-Removing Rhs of wire Net_7046_1[2131] = \ADC_N_CHANNELS_USED:control_1\[2142]
-Removing Rhs of wire Net_7046_0[2133] = \ADC_N_CHANNELS_USED:control_out_0\[2134]
-Removing Rhs of wire Net_7046_0[2133] = \ADC_N_CHANNELS_USED:control_0\[2143]
-Removing Lhs of wire tmpOE__CS2_net_0[2146] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__MOTOR_2A_net_0[2154] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_9759[2155] = \mux_2:tmp__mux_2_reg\[3138]
-Removing Lhs of wire tmpOE__MOTOR_2B_net_0[2161] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_9749[2162] = \mux_1:tmp__mux_1_reg\[3140]
-Removing Lhs of wire tmpOE__MOTOR_EN_1_net_0[2168] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \MOTOR_ON_OFF_1:clk\[2174] = zero[5]
-Removing Lhs of wire \MOTOR_ON_OFF_1:rst\[2175] = zero[5]
-Removing Rhs of wire Net_10337[2176] = \MOTOR_ON_OFF_1:control_out_0\[2177]
-Removing Rhs of wire Net_10337[2176] = \MOTOR_ON_OFF_1:control_0\[2200]
-Removing Rhs of wire Net_10313[2202] = \MOTOR_ON_OFF_2:control_out_0\[3143]
-Removing Rhs of wire Net_10313[2202] = \MOTOR_ON_OFF_2:control_0\[3166]
-Removing Lhs of wire tmpOE__MOTOR_EN_2_net_0[2204] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire \ADC:Net_488\[2221] = \ADC:Net_250\[2255]
-Removing Lhs of wire \ADC:Net_481\[2223] = zero[5]
-Removing Lhs of wire \ADC:Net_482\[2224] = zero[5]
-Removing Lhs of wire \ADC:Net_252\[2257] = zero[5]
-Removing Rhs of wire Net_2836[2259] = cy_srff_2[3168]
-Removing Lhs of wire tmpOE__CS_ENCODER1_net_0[2263] = tmpOE__EMG_1_net_0[4]
-Removing Rhs of wire Net_3511[2271] = \COUNTER_ENC:Net_49\[2272]
-Removing Rhs of wire Net_3511[2271] = \COUNTER_ENC:CounterUDB:tc_reg_i\[2329]
-Removing Lhs of wire \COUNTER_ENC:Net_89\[2274] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:ctrl_capmode_1\[2284] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:ctrl_capmode_0\[2285] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:ctrl_enable\[2297] = \COUNTER_ENC:CounterUDB:control_7\[2289]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:capt_rising\[2299] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:capt_falling\[2300] = \COUNTER_ENC:CounterUDB:prevCapture\[2298]
-Removing Rhs of wire Net_8907[2304] = \RESET_COUNTERS:control_out_0\[3028]
-Removing Rhs of wire Net_8907[2304] = \RESET_COUNTERS:control_0\[3051]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:final_enable\[2306] = \COUNTER_ENC:CounterUDB:control_7\[2289]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:counter_enable\[2307] = \COUNTER_ENC:CounterUDB:control_7\[2289]
-Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_0\[2308] = \COUNTER_ENC:CounterUDB:cmp_out_status\[2309]
-Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_1\[2310] = \COUNTER_ENC:CounterUDB:per_zero\[2311]
-Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_2\[2312] = \COUNTER_ENC:CounterUDB:overflow_status\[2313]
-Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_3\[2314] = \COUNTER_ENC:CounterUDB:underflow_status\[2315]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:status_4\[2316] = \COUNTER_ENC:CounterUDB:hwCapture\[2302]
-Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_5\[2317] = \COUNTER_ENC:CounterUDB:fifo_full\[2318]
-Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_6\[2319] = \COUNTER_ENC:CounterUDB:fifo_nempty\[2320]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:dp_dir\[2323] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:tc_i\[2328] = \COUNTER_ENC:CounterUDB:reload_tc\[2305]
-Removing Rhs of wire \COUNTER_ENC:CounterUDB:cmp_out_i\[2330] = \COUNTER_ENC:CounterUDB:cmp_equal\[2331]
-Removing Rhs of wire Net_1287[2334] = \COUNTER_ENC:CounterUDB:cmp_out_reg_i\[2333]
-Removing Rhs of wire Net_3376[2336] = cydff_1[2583]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:cs_addr_2\[2338] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:cs_addr_1\[2339] = \COUNTER_ENC:CounterUDB:count_enable\[2337]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:cs_addr_0\[2340] = \COUNTER_ENC:CounterUDB:reload\[2303]
-Removing Lhs of wire \SHIFTREG_ENC_3:Net_350\[2370] = Net_1060[2371]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:ctrl_clk_enable\[2374] = \SHIFTREG_ENC_3:bSR:control_0\[2375]
-Removing Lhs of wire \SHIFTREG_ENC_3:bSR:status_2\[2388] = zero[5]
-Removing Lhs of wire Net_3492[2389] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_3:bSR:status_0\[2390] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_3:bSR:final_load\[2391] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_3:bSR:status_1\[2392] = Net_3426[2393]
-Removing Rhs of wire Net_3426[2393] = cydff_2[2586]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_3\[2394] = \SHIFTREG_ENC_3:bSR:f0_blk_stat_final\[2395]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_3\[2394] = \SHIFTREG_ENC_3:bSR:f0_blk_stat_32_3\[2405]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_4\[2396] = \SHIFTREG_ENC_3:bSR:f0_bus_stat_final\[2397]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_4\[2396] = \SHIFTREG_ENC_3:bSR:f0_bus_stat_32_3\[2406]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_5\[2398] = \SHIFTREG_ENC_3:bSR:f1_blk_stat_final\[2399]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_5\[2398] = \SHIFTREG_ENC_3:bSR:f1_blk_stat_32_3\[2407]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_6\[2400] = \SHIFTREG_ENC_3:bSR:f1_bus_stat_final\[2401]
-Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_6\[2400] = \SHIFTREG_ENC_3:bSR:f1_bus_stat_32_3\[2408]
-Removing Rhs of wire Net_3506[2582] = \SHIFTREG_ENC_3:bSR:so_32_3\[2565]
-Removing Lhs of wire Net_1317[2584] = Net_3419[2379]
-Removing Lhs of wire Net_8906[2588] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_2:Net_350\[2589] = Net_3506[2582]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:ctrl_clk_enable\[2592] = \SHIFTREG_ENC_2:bSR:control_0\[2593]
-Removing Lhs of wire \SHIFTREG_ENC_2:bSR:status_2\[2605] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_2:bSR:status_0\[2606] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_2:bSR:final_load\[2607] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_2:bSR:status_1\[2608] = Net_3426[2393]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_3\[2609] = \SHIFTREG_ENC_2:bSR:f0_blk_stat_final\[2610]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_3\[2609] = \SHIFTREG_ENC_2:bSR:f0_blk_stat_32_3\[2620]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_4\[2611] = \SHIFTREG_ENC_2:bSR:f0_bus_stat_final\[2612]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_4\[2611] = \SHIFTREG_ENC_2:bSR:f0_bus_stat_32_3\[2621]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_5\[2613] = \SHIFTREG_ENC_2:bSR:f1_blk_stat_final\[2614]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_5\[2613] = \SHIFTREG_ENC_2:bSR:f1_blk_stat_32_3\[2622]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_6\[2615] = \SHIFTREG_ENC_2:bSR:f1_bus_stat_final\[2616]
-Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_6\[2615] = \SHIFTREG_ENC_2:bSR:f1_bus_stat_32_3\[2623]
-Removing Rhs of wire Net_3505[2797] = \SHIFTREG_ENC_2:bSR:so_32_3\[2780]
-Removing Lhs of wire tmpOE__CLK_ENCODER_net_0[2799] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__MISO_ENCODER_net_0[2805] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire tmpOE__CS_ENCODER0_net_0[2810] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire Net_8905[2816] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_1:Net_350\[2817] = Net_3505[2797]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:ctrl_clk_enable\[2820] = \SHIFTREG_ENC_1:bSR:control_0\[2821]
-Removing Lhs of wire \SHIFTREG_ENC_1:bSR:status_2\[2833] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_1:bSR:status_0\[2834] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_1:bSR:final_load\[2835] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_1:bSR:status_1\[2836] = Net_3426[2393]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_3\[2837] = \SHIFTREG_ENC_1:bSR:f0_blk_stat_final\[2838]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_3\[2837] = \SHIFTREG_ENC_1:bSR:f0_blk_stat_32_3\[2848]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_4\[2839] = \SHIFTREG_ENC_1:bSR:f0_bus_stat_final\[2840]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_4\[2839] = \SHIFTREG_ENC_1:bSR:f0_bus_stat_32_3\[2849]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_5\[2841] = \SHIFTREG_ENC_1:bSR:f1_blk_stat_final\[2842]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_5\[2841] = \SHIFTREG_ENC_1:bSR:f1_blk_stat_32_3\[2850]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_6\[2843] = \SHIFTREG_ENC_1:bSR:f1_bus_stat_final\[2844]
-Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_6\[2843] = \SHIFTREG_ENC_1:bSR:f1_bus_stat_32_3\[2851]
-Removing Lhs of wire \RESET_COUNTERS:clk\[3026] = zero[5]
-Removing Lhs of wire \RESET_COUNTERS:rst\[3027] = zero[5]
-Removing Rhs of wire Net_7981[3053] = \Chip_Select_ENCODER_LINE:control_out_0\[3060]
-Removing Rhs of wire Net_7981[3053] = \Chip_Select_ENCODER_LINE:control_0\[3083]
-Removing Rhs of wire Net_7958[3056] = \demux_1:tmp__demux_1_0_reg\[3052]
-Removing Rhs of wire Net_7959[3057] = \demux_1:tmp__demux_1_1_reg\[3055]
-Removing Lhs of wire \Chip_Select_ENCODER_LINE:clk\[3058] = zero[5]
-Removing Lhs of wire \Chip_Select_ENCODER_LINE:rst\[3059] = zero[5]
-Removing Lhs of wire \MY_TIMER_REG:clk\[3084] = zero[5]
-Removing Lhs of wire \MY_TIMER_REG:rst\[3085] = zero[5]
-Removing Rhs of wire Net_10233[3111] = \MOTOR_DRIVER_TYPE:control_out_0\[3114]
-Removing Rhs of wire Net_10233[3111] = \MOTOR_DRIVER_TYPE:control_0\[3137]
-Removing Lhs of wire \MOTOR_DRIVER_TYPE:clk\[3112] = zero[5]
-Removing Lhs of wire \MOTOR_DRIVER_TYPE:rst\[3113] = zero[5]
-Removing Rhs of wire Net_10264[3115] = \MOTOR_DRIVER_TYPE:control_out_1\[3116]
-Removing Rhs of wire Net_10264[3115] = \MOTOR_DRIVER_TYPE:control_1\[3136]
-Removing Lhs of wire \MOTOR_ON_OFF_2:clk\[3141] = zero[5]
-Removing Lhs of wire \MOTOR_ON_OFF_2:rst\[3142] = zero[5]
-Removing Lhs of wire \ADC_STATUS:status_0\[3171] = Net_5290[3170]
-Removing Lhs of wire \ADC_STATUS:status_1\[3172] = zero[5]
-Removing Lhs of wire \ADC_STATUS:status_2\[3173] = zero[5]
-Removing Lhs of wire \ADC_STATUS:status_3\[3174] = zero[5]
-Removing Lhs of wire \ADC_STATUS:status_4\[3175] = zero[5]
-Removing Lhs of wire \ADC_STATUS:status_5\[3176] = zero[5]
-Removing Lhs of wire \ADC_STATUS:status_6\[3177] = zero[5]
-Removing Lhs of wire \ADC_STATUS:status_7\[3178] = zero[5]
-Removing Lhs of wire \ADC_SOC:clk\[3180] = zero[5]
-Removing Lhs of wire \ADC_SOC:rst\[3181] = zero[5]
-Removing Lhs of wire \MODULE_8:g1:a0:newa_3\[3206] = Net_5190_3[40]
-Removing Lhs of wire MODIN7_3[3207] = Net_5190_3[40]
-Removing Lhs of wire \MODULE_8:g1:a0:newa_2\[3208] = Net_5190_2[43]
-Removing Lhs of wire MODIN7_2[3209] = Net_5190_2[43]
-Removing Lhs of wire \MODULE_8:g1:a0:newa_1\[3210] = Net_5190_1[45]
-Removing Lhs of wire MODIN7_1[3211] = Net_5190_1[45]
-Removing Lhs of wire \MODULE_8:g1:a0:newa_0\[3212] = Net_5190_0[47]
-Removing Lhs of wire MODIN7_0[3213] = Net_5190_0[47]
-Removing Lhs of wire \MODULE_8:g1:a0:newb_3\[3214] = MODIN8_3[3215]
-Removing Lhs of wire MODIN8_3[3215] = Net_7046_3[2127]
-Removing Lhs of wire \MODULE_8:g1:a0:newb_2\[3216] = MODIN8_2[3217]
-Removing Lhs of wire MODIN8_2[3217] = Net_7046_2[2129]
-Removing Lhs of wire \MODULE_8:g1:a0:newb_1\[3218] = MODIN8_1[3219]
-Removing Lhs of wire MODIN8_1[3219] = Net_7046_1[2131]
-Removing Lhs of wire \MODULE_8:g1:a0:newb_0\[3220] = MODIN8_0[3221]
-Removing Lhs of wire MODIN8_0[3221] = Net_7046_0[2133]
-Removing Lhs of wire \MODULE_8:g1:a0:dataa_3\[3222] = Net_5190_3[40]
-Removing Lhs of wire \MODULE_8:g1:a0:dataa_2\[3223] = Net_5190_2[43]
-Removing Lhs of wire \MODULE_8:g1:a0:dataa_1\[3224] = Net_5190_1[45]
-Removing Lhs of wire \MODULE_8:g1:a0:dataa_0\[3225] = Net_5190_0[47]
-Removing Lhs of wire \MODULE_8:g1:a0:datab_3\[3226] = Net_7046_3[2127]
-Removing Lhs of wire \MODULE_8:g1:a0:datab_2\[3227] = Net_7046_2[2129]
-Removing Lhs of wire \MODULE_8:g1:a0:datab_1\[3228] = Net_7046_1[2131]
-Removing Lhs of wire \MODULE_8:g1:a0:datab_0\[3229] = Net_7046_0[2133]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_3\[3230] = Net_5190_3[40]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_2\[3231] = Net_5190_2[43]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_1\[3232] = Net_5190_1[45]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_0\[3233] = Net_5190_0[47]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_3\[3234] = Net_7046_3[2127]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_2\[3235] = Net_7046_2[2129]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_1\[3236] = Net_7046_1[2131]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_0\[3237] = Net_7046_0[2133]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:aeqb_0\[3242] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:eq_0\[3243] = \MODULE_8:g1:a0:gx:u0:xnor_array_0\[3241]
-Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:eqi_0\[3247] = \MODULE_8:g1:a0:gx:u0:eq_3\[3246]
-Removing Lhs of wire \MODULE_9:g1:a0:newa_3\[3280] = Net_5190_3[40]
-Removing Lhs of wire MODIN9_3[3281] = Net_5190_3[40]
-Removing Lhs of wire \MODULE_9:g1:a0:newa_2\[3282] = Net_5190_2[43]
-Removing Lhs of wire MODIN9_2[3283] = Net_5190_2[43]
-Removing Lhs of wire \MODULE_9:g1:a0:newa_1\[3284] = Net_5190_1[45]
-Removing Lhs of wire MODIN9_1[3285] = Net_5190_1[45]
-Removing Lhs of wire \MODULE_9:g1:a0:newa_0\[3286] = Net_5190_0[47]
-Removing Lhs of wire MODIN9_0[3287] = Net_5190_0[47]
-Removing Lhs of wire \MODULE_9:g1:a0:newb_3\[3288] = MODIN10_3[3289]
-Removing Lhs of wire MODIN10_3[3289] = AMuxHw_Decoder_old_id_3[258]
-Removing Lhs of wire \MODULE_9:g1:a0:newb_2\[3290] = MODIN10_2[3291]
-Removing Lhs of wire MODIN10_2[3291] = AMuxHw_Decoder_old_id_2[259]
-Removing Lhs of wire \MODULE_9:g1:a0:newb_1\[3292] = MODIN10_1[3293]
-Removing Lhs of wire MODIN10_1[3293] = AMuxHw_Decoder_old_id_1[260]
-Removing Lhs of wire \MODULE_9:g1:a0:newb_0\[3294] = MODIN10_0[3295]
-Removing Lhs of wire MODIN10_0[3295] = AMuxHw_Decoder_old_id_0[261]
-Removing Lhs of wire \MODULE_9:g1:a0:dataa_3\[3296] = Net_5190_3[40]
-Removing Lhs of wire \MODULE_9:g1:a0:dataa_2\[3297] = Net_5190_2[43]
-Removing Lhs of wire \MODULE_9:g1:a0:dataa_1\[3298] = Net_5190_1[45]
-Removing Lhs of wire \MODULE_9:g1:a0:dataa_0\[3299] = Net_5190_0[47]
-Removing Lhs of wire \MODULE_9:g1:a0:datab_3\[3300] = AMuxHw_Decoder_old_id_3[258]
-Removing Lhs of wire \MODULE_9:g1:a0:datab_2\[3301] = AMuxHw_Decoder_old_id_2[259]
-Removing Lhs of wire \MODULE_9:g1:a0:datab_1\[3302] = AMuxHw_Decoder_old_id_1[260]
-Removing Lhs of wire \MODULE_9:g1:a0:datab_0\[3303] = AMuxHw_Decoder_old_id_0[261]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_3\[3304] = Net_5190_3[40]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_2\[3305] = Net_5190_2[43]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_1\[3306] = Net_5190_1[45]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_0\[3307] = Net_5190_0[47]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_3\[3308] = AMuxHw_Decoder_old_id_3[258]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_2\[3309] = AMuxHw_Decoder_old_id_2[259]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_1\[3310] = AMuxHw_Decoder_old_id_1[260]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_0\[3311] = AMuxHw_Decoder_old_id_0[261]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:aeqb_0\[3316] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:eq_0\[3317] = \MODULE_9:g1:a0:gx:u0:xnor_array_0\[3315]
-Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:eqi_0\[3321] = \MODULE_9:g1:a0:gx:u0:eq_3\[3320]
-Removing Rhs of wire \MODULE_9:g1:a0:xeq\[3343] = \MODULE_9:g1:a0:gx:u0:aeqb_1\[3322]
-Removing Lhs of wire AMuxHw_Decoder_old_id_3D[3359] = Net_5190_3[40]
-Removing Lhs of wire AMuxHw_Decoder_old_id_2D[3360] = Net_5190_2[43]
-Removing Lhs of wire AMuxHw_Decoder_old_id_1D[3361] = Net_5190_1[45]
-Removing Lhs of wire AMuxHw_Decoder_old_id_0D[3362] = Net_5190_0[47]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:min_kill_reg\\D\[3376] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:prevCapture\\D\[3377] = zero[5]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:trig_last\\D\[3378] = zero[5]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:ltch_kill_reg\\D\[3381] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:pwm_i_reg\\D\[3384] = \PWM_MOTORS:PWMUDB:pwm_i\[561]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:pwm1_i_reg\\D\[3385] = \PWM_MOTORS:PWMUDB:pwm1_i\[563]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:pwm2_i_reg\\D\[3386] = \PWM_MOTORS:PWMUDB:pwm2_i\[565]
-Removing Lhs of wire \UART_RS485:BUART:reset_reg\\D\[3389] = zero[5]
-Removing Lhs of wire \UART_RS485:BUART:rx_bitclk\\D\[3404] = \UART_RS485:BUART:rx_bitclk_pre\[985]
-Removing Lhs of wire \UART_RS485:BUART:rx_parity_error_pre\\D\[3412] = \UART_RS485:BUART:rx_parity_error_pre\[1015]
-Removing Lhs of wire \SPI_IMU:BSPIM:dpcounter_one_reg\\D\[3417] = \SPI_IMU:BSPIM:dpcounter_one\[1243]
-Removing Lhs of wire \SPI_IMU:BSPIM:so_send_reg\\D\[3418] = \SPI_IMU:BSPIM:so_send\[1223]
-Removing Lhs of wire \SPI_IMU:BSPIM:mosi_reg\\D\[3425] = \SPI_IMU:BSPIM:mosi_pre_reg\[1240]
-Removing Lhs of wire \SPI_IMU:BSPIM:mosi_from_dp_reg\\D\[3427] = \SPI_IMU:BSPIM:mosi_from_dp\[1230]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:min_kill_reg\\D\[3431] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:prevCapture\\D\[3432] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:trig_last\\D\[3433] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:ltch_kill_reg\\D\[3436] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm_i_reg\\D\[3439] = \BLINK_05HZ:PWMUDB:pwm_i\[1525]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm1_i_reg\\D\[3440] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm2_i_reg\\D\[3441] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:min_kill_reg\\D\[3443] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:prevCapture\\D\[3444] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:trig_last\\D\[3445] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:ltch_kill_reg\\D\[3448] = tmpOE__EMG_1_net_0[4]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm_i_reg\\D\[3451] = \BLINK_25HZ:PWMUDB:pwm_i\[1898]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm1_i_reg\\D\[3452] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm2_i_reg\\D\[3453] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:prevCapture\\D\[3455] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:overflow_reg_i\\D\[3456] = \COUNTER_ENC:CounterUDB:overflow\[2322]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:underflow_reg_i\\D\[3457] = \COUNTER_ENC:CounterUDB:underflow\[2325]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:tc_reg_i\\D\[3458] = \COUNTER_ENC:CounterUDB:reload_tc\[2305]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:prevCompare\\D\[3459] = \COUNTER_ENC:CounterUDB:cmp_out_i\[2330]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:cmp_out_reg_i\\D\[3460] = \COUNTER_ENC:CounterUDB:cmp_out_i\[2330]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:count_stored_i\\D\[3461] = Net_3376[2336]
-Removing Lhs of wire \SHIFTREG_ENC_3:bSR:load_reg\\D\[3462] = zero[5]
-Removing Lhs of wire cydff_1D[3463] = Net_3419[2379]
-Removing Lhs of wire cydff_2D[3464] = Net_3510[2587]
-Removing Lhs of wire \SHIFTREG_ENC_2:bSR:load_reg\\D\[3465] = zero[5]
-Removing Lhs of wire \SHIFTREG_ENC_1:bSR:load_reg\\D\[3466] = zero[5]
+Removing Lhs of wire \SPI_IMU:Net_276\[1190] = Net_2334[419]
+Removing Rhs of wire \SPI_IMU:BSPIM:load_rx_data\[1193] = \SPI_IMU:BSPIM:dpcounter_one_reg\[1194]
+Removing Lhs of wire \SPI_IMU:BSPIM:pol_supprt\[1195] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \SPI_IMU:BSPIM:miso_to_dp\[1196] = \SPI_IMU:Net_244\[1197]
+Removing Lhs of wire \SPI_IMU:Net_244\[1197] = Net_1469[1186]
+Removing Rhs of wire \SPI_IMU:BSPIM:tx_status_1\[1223] = \SPI_IMU:BSPIM:dpMOSI_fifo_empty\[1224]
+Removing Rhs of wire \SPI_IMU:BSPIM:tx_status_2\[1225] = \SPI_IMU:BSPIM:dpMOSI_fifo_not_full\[1226]
+Removing Lhs of wire \SPI_IMU:BSPIM:tx_status_3\[1227] = \SPI_IMU:BSPIM:dpcounter_one\[1219]
+Removing Rhs of wire \SPI_IMU:BSPIM:rx_status_4\[1229] = \SPI_IMU:BSPIM:dpMISO_fifo_full\[1230]
+Removing Rhs of wire \SPI_IMU:BSPIM:rx_status_5\[1231] = \SPI_IMU:BSPIM:dpMISO_fifo_not_empty\[1232]
+Removing Lhs of wire \SPI_IMU:BSPIM:tx_status_6\[1234] = zero[5]
+Removing Lhs of wire \SPI_IMU:BSPIM:tx_status_5\[1235] = zero[5]
+Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_3\[1236] = zero[5]
+Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_2\[1237] = zero[5]
+Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_1\[1238] = zero[5]
+Removing Lhs of wire \SPI_IMU:BSPIM:rx_status_0\[1239] = zero[5]
+Removing Lhs of wire \SPI_IMU:Net_273\[1249] = zero[5]
+Removing Lhs of wire \SPI_IMU:Net_289\[1289] = zero[5]
+Removing Lhs of wire tmpOE__CS1_net_0[1293] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \MOTOR_DIR_2:clk\[1299] = zero[5]
+Removing Lhs of wire \MOTOR_DIR_2:rst\[1300] = zero[5]
+Removing Rhs of wire Net_3021[1301] = \MOTOR_DIR_2:control_out_0\[1302]
+Removing Rhs of wire Net_3021[1301] = \MOTOR_DIR_2:control_0\[1325]
+Removing Rhs of wire Net_3058[1335] = \demux_2:tmp__demux_2_0_reg\[1326]
+Removing Rhs of wire Net_3059[1336] = \demux_2:tmp__demux_2_1_reg\[1328]
+Removing Rhs of wire Net_3060[1337] = \demux_2:tmp__demux_2_2_reg\[1329]
+Removing Rhs of wire Net_3061[1338] = \demux_2:tmp__demux_2_3_reg\[1330]
+Removing Rhs of wire Net_9687[1339] = \demux_2:tmp__demux_2_4_reg\[1331]
+Removing Lhs of wire tmpOE__CS0_net_0[1344] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire tmpOE__LED_RED_net_0[1351] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:ctrl_enable\[1371] = \BLINK_05HZ:PWMUDB:control_7\[1363]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:hwCapture\[1381] = zero[5]
+Removing Rhs of wire Net_3925[1383] = \BLINK_CTRL_EN:control_out_0\[1749]
+Removing Rhs of wire Net_3925[1383] = \BLINK_CTRL_EN:control_0\[1772]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:trig_out\[1387] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:runmode_enable\\R\[1389] = zero[5]
+Removing Lhs of wire Net_7326[1390] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:runmode_enable\\S\[1391] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:final_enable\[1392] = \BLINK_05HZ:PWMUDB:runmode_enable\[1388]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:ltch_kill_reg\\R\[1396] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:ltch_kill_reg\\S\[1397] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:min_kill_reg\\R\[1398] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:min_kill_reg\\S\[1399] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:final_kill\[1402] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:add_vi_vv_MODGEN_8_1\[1406] = \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:s_1\[1672]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:add_vi_vv_MODGEN_8_0\[1408] = \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:s_0\[1673]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_1\\R\[1409] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_1\\S\[1410] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_0\\R\[1411] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:dith_count_0\\S\[1412] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:cs_addr_2\[1414] = \BLINK_05HZ:PWMUDB:tc_i\[1394]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:cs_addr_1\[1415] = \BLINK_05HZ:PWMUDB:runmode_enable\[1388]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:cs_addr_0\[1416] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm1_i\[1503] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm2_i\[1505] = zero[5]
+Removing Rhs of wire \BLINK_05HZ:Net_96\[1508] = \BLINK_05HZ:PWMUDB:pwm_i_reg\[1500]
+Removing Rhs of wire \BLINK_05HZ:PWMUDB:pwm_temp\[1511] = \BLINK_05HZ:PWMUDB:cmp1\[1512]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_23\[1554] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_22\[1555] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_21\[1556] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_20\[1557] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_19\[1558] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_18\[1559] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_17\[1560] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_16\[1561] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_15\[1562] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_14\[1563] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_13\[1564] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_12\[1565] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_11\[1566] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_10\[1567] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_9\[1568] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_8\[1569] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_7\[1570] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_6\[1571] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_5\[1572] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_4\[1573] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_3\[1574] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_2\[1575] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_1\[1576] = \BLINK_05HZ:PWMUDB:MODIN5_1\[1577]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODIN5_1\[1577] = \BLINK_05HZ:PWMUDB:dith_count_1\[1405]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:a_0\[1578] = \BLINK_05HZ:PWMUDB:MODIN5_0\[1579]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODIN5_0\[1579] = \BLINK_05HZ:PWMUDB:dith_count_0\[1407]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:c_0\[1711] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_0\[1712] = tmpOE__EMG_1_net_0[4]
+Removing Rhs of wire Net_5579[1713] = \BLINK_05HZ:Net_96\[1508]
+Removing Lhs of wire \LED_CTRL:clk\[1720] = zero[5]
+Removing Lhs of wire \LED_CTRL:rst\[1721] = zero[5]
+Removing Rhs of wire Net_7450[1722] = \LED_CTRL:control_out_0\[1723]
+Removing Rhs of wire Net_7450[1722] = \LED_CTRL:control_0\[1746]
+Removing Rhs of wire Net_7694[1724] = \LED_CTRL:control_out_1\[1725]
+Removing Rhs of wire Net_7694[1724] = \LED_CTRL:control_1\[1745]
+Removing Lhs of wire \BLINK_CTRL_EN:clk\[1747] = zero[5]
+Removing Lhs of wire \BLINK_CTRL_EN:rst\[1748] = zero[5]
+Removing Rhs of wire Net_5930[1750] = \BLINK_CTRL_EN:control_out_1\[1751]
+Removing Rhs of wire Net_5930[1750] = \BLINK_CTRL_EN:control_1\[1771]
+Removing Lhs of wire tmpOE__LED_GREEN_net_0[1774] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:ctrl_enable\[1793] = \BLINK_25HZ:PWMUDB:control_7\[1785]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:hwCapture\[1803] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:trig_out\[1808] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:runmode_enable\\R\[1810] = zero[5]
+Removing Lhs of wire Net_7185[1811] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:runmode_enable\\S\[1812] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:final_enable\[1813] = \BLINK_25HZ:PWMUDB:runmode_enable\[1809]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:ltch_kill_reg\\R\[1817] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:ltch_kill_reg\\S\[1818] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:min_kill_reg\\R\[1819] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:min_kill_reg\\S\[1820] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:final_kill\[1823] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:add_vi_vv_MODGEN_9_1\[1827] = \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:s_1\[2045]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:add_vi_vv_MODGEN_9_0\[1829] = \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:s_0\[2046]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_1\\R\[1830] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_1\\S\[1831] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_0\\R\[1832] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:dith_count_0\\S\[1833] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:cs_addr_2\[1835] = \BLINK_25HZ:PWMUDB:tc_i\[1815]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:cs_addr_1\[1836] = \BLINK_25HZ:PWMUDB:runmode_enable\[1809]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:cs_addr_0\[1837] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm1_i\[1876] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm2_i\[1878] = zero[5]
+Removing Rhs of wire \BLINK_25HZ:Net_96\[1881] = \BLINK_25HZ:PWMUDB:pwm_i_reg\[1873]
+Removing Rhs of wire \BLINK_25HZ:PWMUDB:pwm_temp\[1884] = \BLINK_25HZ:PWMUDB:cmp1\[1885]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_23\[1927] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_22\[1928] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_21\[1929] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_20\[1930] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_19\[1931] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_18\[1932] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_17\[1933] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_16\[1934] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_15\[1935] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_14\[1936] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_13\[1937] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_12\[1938] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_11\[1939] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_10\[1940] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_9\[1941] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_8\[1942] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_7\[1943] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_6\[1944] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_5\[1945] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_4\[1946] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_3\[1947] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_2\[1948] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_1\[1949] = \BLINK_25HZ:PWMUDB:MODIN6_1\[1950]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODIN6_1\[1950] = \BLINK_25HZ:PWMUDB:dith_count_1\[1826]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:a_0\[1951] = \BLINK_25HZ:PWMUDB:MODIN6_0\[1952]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODIN6_0\[1952] = \BLINK_25HZ:PWMUDB:dith_count_0\[1828]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:c_0\[2084] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_0\[2085] = tmpOE__EMG_1_net_0[4]
+Removing Rhs of wire Net_7667[2086] = \BLINK_25HZ:Net_96\[1881]
+Removing Lhs of wire \ADC_N_CHANNELS_USED:clk\[2093] = zero[5]
+Removing Lhs of wire \ADC_N_CHANNELS_USED:rst\[2094] = zero[5]
+Removing Rhs of wire Net_7046_3[2103] = \ADC_N_CHANNELS_USED:control_out_3\[2104]
+Removing Rhs of wire Net_7046_3[2103] = \ADC_N_CHANNELS_USED:control_3\[2116]
+Removing Rhs of wire Net_7046_2[2105] = \ADC_N_CHANNELS_USED:control_out_2\[2106]
+Removing Rhs of wire Net_7046_2[2105] = \ADC_N_CHANNELS_USED:control_2\[2117]
+Removing Rhs of wire Net_7046_1[2107] = \ADC_N_CHANNELS_USED:control_out_1\[2108]
+Removing Rhs of wire Net_7046_1[2107] = \ADC_N_CHANNELS_USED:control_1\[2118]
+Removing Rhs of wire Net_7046_0[2109] = \ADC_N_CHANNELS_USED:control_out_0\[2110]
+Removing Rhs of wire Net_7046_0[2109] = \ADC_N_CHANNELS_USED:control_0\[2119]
+Removing Lhs of wire tmpOE__CS2_net_0[2122] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire tmpOE__MOTOR_2A_net_0[2130] = tmpOE__EMG_1_net_0[4]
+Removing Rhs of wire Net_9759[2131] = \mux_2:tmp__mux_2_reg\[3114]
+Removing Lhs of wire tmpOE__MOTOR_2B_net_0[2137] = tmpOE__EMG_1_net_0[4]
+Removing Rhs of wire Net_9749[2138] = \mux_1:tmp__mux_1_reg\[3116]
+Removing Lhs of wire tmpOE__MOTOR_EN_1_net_0[2144] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \MOTOR_ON_OFF_1:clk\[2150] = zero[5]
+Removing Lhs of wire \MOTOR_ON_OFF_1:rst\[2151] = zero[5]
+Removing Rhs of wire Net_10337[2152] = \MOTOR_ON_OFF_1:control_out_0\[2153]
+Removing Rhs of wire Net_10337[2152] = \MOTOR_ON_OFF_1:control_0\[2176]
+Removing Rhs of wire Net_10313[2178] = \MOTOR_ON_OFF_2:control_out_0\[3119]
+Removing Rhs of wire Net_10313[2178] = \MOTOR_ON_OFF_2:control_0\[3142]
+Removing Lhs of wire tmpOE__MOTOR_EN_2_net_0[2180] = tmpOE__EMG_1_net_0[4]
+Removing Rhs of wire \ADC:Net_488\[2197] = \ADC:Net_250\[2231]
+Removing Lhs of wire \ADC:Net_481\[2199] = zero[5]
+Removing Lhs of wire \ADC:Net_482\[2200] = zero[5]
+Removing Lhs of wire \ADC:Net_252\[2233] = zero[5]
+Removing Rhs of wire Net_2836[2235] = cy_srff_2[3144]
+Removing Lhs of wire tmpOE__CS_ENCODER1_net_0[2239] = tmpOE__EMG_1_net_0[4]
+Removing Rhs of wire Net_3511[2247] = \COUNTER_ENC:Net_49\[2248]
+Removing Rhs of wire Net_3511[2247] = \COUNTER_ENC:CounterUDB:tc_reg_i\[2305]
+Removing Lhs of wire \COUNTER_ENC:Net_89\[2250] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:ctrl_capmode_1\[2260] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:ctrl_capmode_0\[2261] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:ctrl_enable\[2273] = \COUNTER_ENC:CounterUDB:control_7\[2265]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:capt_rising\[2275] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:capt_falling\[2276] = \COUNTER_ENC:CounterUDB:prevCapture\[2274]
+Removing Rhs of wire Net_8907[2280] = \RESET_COUNTERS:control_out_0\[3004]
+Removing Rhs of wire Net_8907[2280] = \RESET_COUNTERS:control_0\[3027]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:final_enable\[2282] = \COUNTER_ENC:CounterUDB:control_7\[2265]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:counter_enable\[2283] = \COUNTER_ENC:CounterUDB:control_7\[2265]
+Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_0\[2284] = \COUNTER_ENC:CounterUDB:cmp_out_status\[2285]
+Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_1\[2286] = \COUNTER_ENC:CounterUDB:per_zero\[2287]
+Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_2\[2288] = \COUNTER_ENC:CounterUDB:overflow_status\[2289]
+Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_3\[2290] = \COUNTER_ENC:CounterUDB:underflow_status\[2291]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:status_4\[2292] = \COUNTER_ENC:CounterUDB:hwCapture\[2278]
+Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_5\[2293] = \COUNTER_ENC:CounterUDB:fifo_full\[2294]
+Removing Rhs of wire \COUNTER_ENC:CounterUDB:status_6\[2295] = \COUNTER_ENC:CounterUDB:fifo_nempty\[2296]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:dp_dir\[2299] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:tc_i\[2304] = \COUNTER_ENC:CounterUDB:reload_tc\[2281]
+Removing Rhs of wire \COUNTER_ENC:CounterUDB:cmp_out_i\[2306] = \COUNTER_ENC:CounterUDB:cmp_equal\[2307]
+Removing Rhs of wire Net_1287[2310] = \COUNTER_ENC:CounterUDB:cmp_out_reg_i\[2309]
+Removing Rhs of wire Net_3376[2312] = cydff_1[2559]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:cs_addr_2\[2314] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:cs_addr_1\[2315] = \COUNTER_ENC:CounterUDB:count_enable\[2313]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:cs_addr_0\[2316] = \COUNTER_ENC:CounterUDB:reload\[2279]
+Removing Lhs of wire \SHIFTREG_ENC_3:Net_350\[2346] = Net_1060[2347]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:ctrl_clk_enable\[2350] = \SHIFTREG_ENC_3:bSR:control_0\[2351]
+Removing Lhs of wire \SHIFTREG_ENC_3:bSR:status_2\[2364] = zero[5]
+Removing Lhs of wire Net_3492[2365] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_3:bSR:status_0\[2366] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_3:bSR:final_load\[2367] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_3:bSR:status_1\[2368] = Net_3426[2369]
+Removing Rhs of wire Net_3426[2369] = cydff_2[2562]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_3\[2370] = \SHIFTREG_ENC_3:bSR:f0_blk_stat_final\[2371]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_3\[2370] = \SHIFTREG_ENC_3:bSR:f0_blk_stat_32_3\[2381]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_4\[2372] = \SHIFTREG_ENC_3:bSR:f0_bus_stat_final\[2373]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_4\[2372] = \SHIFTREG_ENC_3:bSR:f0_bus_stat_32_3\[2382]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_5\[2374] = \SHIFTREG_ENC_3:bSR:f1_blk_stat_final\[2375]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_5\[2374] = \SHIFTREG_ENC_3:bSR:f1_blk_stat_32_3\[2383]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_6\[2376] = \SHIFTREG_ENC_3:bSR:f1_bus_stat_final\[2377]
+Removing Rhs of wire \SHIFTREG_ENC_3:bSR:status_6\[2376] = \SHIFTREG_ENC_3:bSR:f1_bus_stat_32_3\[2384]
+Removing Rhs of wire Net_3506[2558] = \SHIFTREG_ENC_3:bSR:so_32_3\[2541]
+Removing Lhs of wire Net_1317[2560] = Net_3419[2355]
+Removing Lhs of wire Net_8906[2564] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_2:Net_350\[2565] = Net_3506[2558]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:ctrl_clk_enable\[2568] = \SHIFTREG_ENC_2:bSR:control_0\[2569]
+Removing Lhs of wire \SHIFTREG_ENC_2:bSR:status_2\[2581] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_2:bSR:status_0\[2582] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_2:bSR:final_load\[2583] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_2:bSR:status_1\[2584] = Net_3426[2369]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_3\[2585] = \SHIFTREG_ENC_2:bSR:f0_blk_stat_final\[2586]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_3\[2585] = \SHIFTREG_ENC_2:bSR:f0_blk_stat_32_3\[2596]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_4\[2587] = \SHIFTREG_ENC_2:bSR:f0_bus_stat_final\[2588]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_4\[2587] = \SHIFTREG_ENC_2:bSR:f0_bus_stat_32_3\[2597]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_5\[2589] = \SHIFTREG_ENC_2:bSR:f1_blk_stat_final\[2590]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_5\[2589] = \SHIFTREG_ENC_2:bSR:f1_blk_stat_32_3\[2598]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_6\[2591] = \SHIFTREG_ENC_2:bSR:f1_bus_stat_final\[2592]
+Removing Rhs of wire \SHIFTREG_ENC_2:bSR:status_6\[2591] = \SHIFTREG_ENC_2:bSR:f1_bus_stat_32_3\[2599]
+Removing Rhs of wire Net_3505[2773] = \SHIFTREG_ENC_2:bSR:so_32_3\[2756]
+Removing Lhs of wire tmpOE__CLK_ENCODER_net_0[2775] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire tmpOE__MISO_ENCODER_net_0[2781] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire tmpOE__CS_ENCODER0_net_0[2786] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire Net_8905[2792] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_1:Net_350\[2793] = Net_3505[2773]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:ctrl_clk_enable\[2796] = \SHIFTREG_ENC_1:bSR:control_0\[2797]
+Removing Lhs of wire \SHIFTREG_ENC_1:bSR:status_2\[2809] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_1:bSR:status_0\[2810] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_1:bSR:final_load\[2811] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_1:bSR:status_1\[2812] = Net_3426[2369]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_3\[2813] = \SHIFTREG_ENC_1:bSR:f0_blk_stat_final\[2814]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_3\[2813] = \SHIFTREG_ENC_1:bSR:f0_blk_stat_32_3\[2824]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_4\[2815] = \SHIFTREG_ENC_1:bSR:f0_bus_stat_final\[2816]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_4\[2815] = \SHIFTREG_ENC_1:bSR:f0_bus_stat_32_3\[2825]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_5\[2817] = \SHIFTREG_ENC_1:bSR:f1_blk_stat_final\[2818]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_5\[2817] = \SHIFTREG_ENC_1:bSR:f1_blk_stat_32_3\[2826]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_6\[2819] = \SHIFTREG_ENC_1:bSR:f1_bus_stat_final\[2820]
+Removing Rhs of wire \SHIFTREG_ENC_1:bSR:status_6\[2819] = \SHIFTREG_ENC_1:bSR:f1_bus_stat_32_3\[2827]
+Removing Lhs of wire \RESET_COUNTERS:clk\[3002] = zero[5]
+Removing Lhs of wire \RESET_COUNTERS:rst\[3003] = zero[5]
+Removing Rhs of wire Net_7981[3029] = \Chip_Select_ENCODER_LINE:control_out_0\[3036]
+Removing Rhs of wire Net_7981[3029] = \Chip_Select_ENCODER_LINE:control_0\[3059]
+Removing Rhs of wire Net_7958[3032] = \demux_1:tmp__demux_1_0_reg\[3028]
+Removing Rhs of wire Net_7959[3033] = \demux_1:tmp__demux_1_1_reg\[3031]
+Removing Lhs of wire \Chip_Select_ENCODER_LINE:clk\[3034] = zero[5]
+Removing Lhs of wire \Chip_Select_ENCODER_LINE:rst\[3035] = zero[5]
+Removing Lhs of wire \MY_TIMER_REG:clk\[3060] = zero[5]
+Removing Lhs of wire \MY_TIMER_REG:rst\[3061] = zero[5]
+Removing Rhs of wire Net_10233[3087] = \MOTOR_DRIVER_TYPE:control_out_0\[3090]
+Removing Rhs of wire Net_10233[3087] = \MOTOR_DRIVER_TYPE:control_0\[3113]
+Removing Lhs of wire \MOTOR_DRIVER_TYPE:clk\[3088] = zero[5]
+Removing Lhs of wire \MOTOR_DRIVER_TYPE:rst\[3089] = zero[5]
+Removing Rhs of wire Net_10264[3091] = \MOTOR_DRIVER_TYPE:control_out_1\[3092]
+Removing Rhs of wire Net_10264[3091] = \MOTOR_DRIVER_TYPE:control_1\[3112]
+Removing Lhs of wire \MOTOR_ON_OFF_2:clk\[3117] = zero[5]
+Removing Lhs of wire \MOTOR_ON_OFF_2:rst\[3118] = zero[5]
+Removing Lhs of wire \ADC_STATUS:status_0\[3147] = Net_5290[3146]
+Removing Lhs of wire \ADC_STATUS:status_1\[3148] = zero[5]
+Removing Lhs of wire \ADC_STATUS:status_2\[3149] = zero[5]
+Removing Lhs of wire \ADC_STATUS:status_3\[3150] = zero[5]
+Removing Lhs of wire \ADC_STATUS:status_4\[3151] = zero[5]
+Removing Lhs of wire \ADC_STATUS:status_5\[3152] = zero[5]
+Removing Lhs of wire \ADC_STATUS:status_6\[3153] = zero[5]
+Removing Lhs of wire \ADC_STATUS:status_7\[3154] = zero[5]
+Removing Lhs of wire \ADC_SOC:clk\[3156] = zero[5]
+Removing Lhs of wire \ADC_SOC:rst\[3157] = zero[5]
+Removing Lhs of wire \MODULE_8:g1:a0:newa_3\[3182] = Net_5190_3[40]
+Removing Lhs of wire MODIN7_3[3183] = Net_5190_3[40]
+Removing Lhs of wire \MODULE_8:g1:a0:newa_2\[3184] = Net_5190_2[43]
+Removing Lhs of wire MODIN7_2[3185] = Net_5190_2[43]
+Removing Lhs of wire \MODULE_8:g1:a0:newa_1\[3186] = Net_5190_1[45]
+Removing Lhs of wire MODIN7_1[3187] = Net_5190_1[45]
+Removing Lhs of wire \MODULE_8:g1:a0:newa_0\[3188] = Net_5190_0[47]
+Removing Lhs of wire MODIN7_0[3189] = Net_5190_0[47]
+Removing Lhs of wire \MODULE_8:g1:a0:newb_3\[3190] = MODIN8_3[3191]
+Removing Lhs of wire MODIN8_3[3191] = Net_7046_3[2103]
+Removing Lhs of wire \MODULE_8:g1:a0:newb_2\[3192] = MODIN8_2[3193]
+Removing Lhs of wire MODIN8_2[3193] = Net_7046_2[2105]
+Removing Lhs of wire \MODULE_8:g1:a0:newb_1\[3194] = MODIN8_1[3195]
+Removing Lhs of wire MODIN8_1[3195] = Net_7046_1[2107]
+Removing Lhs of wire \MODULE_8:g1:a0:newb_0\[3196] = MODIN8_0[3197]
+Removing Lhs of wire MODIN8_0[3197] = Net_7046_0[2109]
+Removing Lhs of wire \MODULE_8:g1:a0:dataa_3\[3198] = Net_5190_3[40]
+Removing Lhs of wire \MODULE_8:g1:a0:dataa_2\[3199] = Net_5190_2[43]
+Removing Lhs of wire \MODULE_8:g1:a0:dataa_1\[3200] = Net_5190_1[45]
+Removing Lhs of wire \MODULE_8:g1:a0:dataa_0\[3201] = Net_5190_0[47]
+Removing Lhs of wire \MODULE_8:g1:a0:datab_3\[3202] = Net_7046_3[2103]
+Removing Lhs of wire \MODULE_8:g1:a0:datab_2\[3203] = Net_7046_2[2105]
+Removing Lhs of wire \MODULE_8:g1:a0:datab_1\[3204] = Net_7046_1[2107]
+Removing Lhs of wire \MODULE_8:g1:a0:datab_0\[3205] = Net_7046_0[2109]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_3\[3206] = Net_5190_3[40]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_2\[3207] = Net_5190_2[43]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_1\[3208] = Net_5190_1[45]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:a_0\[3209] = Net_5190_0[47]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_3\[3210] = Net_7046_3[2103]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_2\[3211] = Net_7046_2[2105]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_1\[3212] = Net_7046_1[2107]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:b_0\[3213] = Net_7046_0[2109]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:aeqb_0\[3218] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:eq_0\[3219] = \MODULE_8:g1:a0:gx:u0:xnor_array_0\[3217]
+Removing Lhs of wire \MODULE_8:g1:a0:gx:u0:eqi_0\[3223] = \MODULE_8:g1:a0:gx:u0:eq_3\[3222]
+Removing Lhs of wire \MODULE_9:g1:a0:newa_3\[3256] = Net_5190_3[40]
+Removing Lhs of wire MODIN9_3[3257] = Net_5190_3[40]
+Removing Lhs of wire \MODULE_9:g1:a0:newa_2\[3258] = Net_5190_2[43]
+Removing Lhs of wire MODIN9_2[3259] = Net_5190_2[43]
+Removing Lhs of wire \MODULE_9:g1:a0:newa_1\[3260] = Net_5190_1[45]
+Removing Lhs of wire MODIN9_1[3261] = Net_5190_1[45]
+Removing Lhs of wire \MODULE_9:g1:a0:newa_0\[3262] = Net_5190_0[47]
+Removing Lhs of wire MODIN9_0[3263] = Net_5190_0[47]
+Removing Lhs of wire \MODULE_9:g1:a0:newb_3\[3264] = MODIN10_3[3265]
+Removing Lhs of wire MODIN10_3[3265] = AMuxHw_Decoder_old_id_3[258]
+Removing Lhs of wire \MODULE_9:g1:a0:newb_2\[3266] = MODIN10_2[3267]
+Removing Lhs of wire MODIN10_2[3267] = AMuxHw_Decoder_old_id_2[259]
+Removing Lhs of wire \MODULE_9:g1:a0:newb_1\[3268] = MODIN10_1[3269]
+Removing Lhs of wire MODIN10_1[3269] = AMuxHw_Decoder_old_id_1[260]
+Removing Lhs of wire \MODULE_9:g1:a0:newb_0\[3270] = MODIN10_0[3271]
+Removing Lhs of wire MODIN10_0[3271] = AMuxHw_Decoder_old_id_0[261]
+Removing Lhs of wire \MODULE_9:g1:a0:dataa_3\[3272] = Net_5190_3[40]
+Removing Lhs of wire \MODULE_9:g1:a0:dataa_2\[3273] = Net_5190_2[43]
+Removing Lhs of wire \MODULE_9:g1:a0:dataa_1\[3274] = Net_5190_1[45]
+Removing Lhs of wire \MODULE_9:g1:a0:dataa_0\[3275] = Net_5190_0[47]
+Removing Lhs of wire \MODULE_9:g1:a0:datab_3\[3276] = AMuxHw_Decoder_old_id_3[258]
+Removing Lhs of wire \MODULE_9:g1:a0:datab_2\[3277] = AMuxHw_Decoder_old_id_2[259]
+Removing Lhs of wire \MODULE_9:g1:a0:datab_1\[3278] = AMuxHw_Decoder_old_id_1[260]
+Removing Lhs of wire \MODULE_9:g1:a0:datab_0\[3279] = AMuxHw_Decoder_old_id_0[261]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_3\[3280] = Net_5190_3[40]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_2\[3281] = Net_5190_2[43]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_1\[3282] = Net_5190_1[45]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:a_0\[3283] = Net_5190_0[47]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_3\[3284] = AMuxHw_Decoder_old_id_3[258]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_2\[3285] = AMuxHw_Decoder_old_id_2[259]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_1\[3286] = AMuxHw_Decoder_old_id_1[260]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:b_0\[3287] = AMuxHw_Decoder_old_id_0[261]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:aeqb_0\[3292] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:eq_0\[3293] = \MODULE_9:g1:a0:gx:u0:xnor_array_0\[3291]
+Removing Lhs of wire \MODULE_9:g1:a0:gx:u0:eqi_0\[3297] = \MODULE_9:g1:a0:gx:u0:eq_3\[3296]
+Removing Rhs of wire \MODULE_9:g1:a0:xeq\[3319] = \MODULE_9:g1:a0:gx:u0:aeqb_1\[3298]
+Removing Lhs of wire AMuxHw_Decoder_old_id_3D[3335] = Net_5190_3[40]
+Removing Lhs of wire AMuxHw_Decoder_old_id_2D[3336] = Net_5190_2[43]
+Removing Lhs of wire AMuxHw_Decoder_old_id_1D[3337] = Net_5190_1[45]
+Removing Lhs of wire AMuxHw_Decoder_old_id_0D[3338] = Net_5190_0[47]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:min_kill_reg\\D\[3352] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:prevCapture\\D\[3353] = zero[5]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:trig_last\\D\[3354] = zero[5]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:ltch_kill_reg\\D\[3357] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:pwm_i_reg\\D\[3360] = \PWM_MOTORS:PWMUDB:pwm_i\[561]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:pwm1_i_reg\\D\[3361] = \PWM_MOTORS:PWMUDB:pwm1_i\[563]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:pwm2_i_reg\\D\[3362] = \PWM_MOTORS:PWMUDB:pwm2_i\[565]
+Removing Lhs of wire \UART_RS485:BUART:reset_reg\\D\[3365] = zero[5]
+Removing Lhs of wire \UART_RS485:BUART:rx_bitclk\\D\[3380] = \UART_RS485:BUART:rx_bitclk_pre\[985]
+Removing Lhs of wire \UART_RS485:BUART:rx_parity_error_pre\\D\[3388] = \UART_RS485:BUART:rx_parity_error_pre\[1015]
+Removing Lhs of wire \SPI_IMU:BSPIM:dpcounter_one_reg\\D\[3393] = \SPI_IMU:BSPIM:dpcounter_one\[1219]
+Removing Lhs of wire \SPI_IMU:BSPIM:so_send_reg\\D\[3394] = \SPI_IMU:BSPIM:so_send\[1199]
+Removing Lhs of wire \SPI_IMU:BSPIM:mosi_reg\\D\[3401] = \SPI_IMU:BSPIM:mosi_pre_reg\[1216]
+Removing Lhs of wire \SPI_IMU:BSPIM:mosi_from_dp_reg\\D\[3403] = \SPI_IMU:BSPIM:mosi_from_dp\[1206]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:min_kill_reg\\D\[3407] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:prevCapture\\D\[3408] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:trig_last\\D\[3409] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:ltch_kill_reg\\D\[3412] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm_i_reg\\D\[3415] = \BLINK_05HZ:PWMUDB:pwm_i\[1501]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm1_i_reg\\D\[3416] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:pwm2_i_reg\\D\[3417] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:min_kill_reg\\D\[3419] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:prevCapture\\D\[3420] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:trig_last\\D\[3421] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:ltch_kill_reg\\D\[3424] = tmpOE__EMG_1_net_0[4]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm_i_reg\\D\[3427] = \BLINK_25HZ:PWMUDB:pwm_i\[1874]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm1_i_reg\\D\[3428] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:pwm2_i_reg\\D\[3429] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:prevCapture\\D\[3431] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:overflow_reg_i\\D\[3432] = \COUNTER_ENC:CounterUDB:overflow\[2298]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:underflow_reg_i\\D\[3433] = \COUNTER_ENC:CounterUDB:underflow\[2301]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:tc_reg_i\\D\[3434] = \COUNTER_ENC:CounterUDB:reload_tc\[2281]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:prevCompare\\D\[3435] = \COUNTER_ENC:CounterUDB:cmp_out_i\[2306]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:cmp_out_reg_i\\D\[3436] = \COUNTER_ENC:CounterUDB:cmp_out_i\[2306]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:count_stored_i\\D\[3437] = Net_3376[2312]
+Removing Lhs of wire \SHIFTREG_ENC_3:bSR:load_reg\\D\[3438] = zero[5]
+Removing Lhs of wire cydff_1D[3439] = Net_3419[2355]
+Removing Lhs of wire cydff_2D[3440] = Net_3510[2563]
+Removing Lhs of wire \SHIFTREG_ENC_2:bSR:load_reg\\D\[3441] = zero[5]
+Removing Lhs of wire \SHIFTREG_ENC_1:bSR:load_reg\\D\[3442] = zero[5]
 
 ------------------------------------------------------
-Aliased 0 equations, 667 wires.
+Aliased 0 equations, 663 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -2827,23 +2819,23 @@ Removing Lhs of wire \PWM_MOTORS:PWMUDB:MODULE_2:g2:a0:g1:z1:s0:g1:u0:b_8\[761] 
 Removing Rhs of wire \UART_RS485:BUART:rx_bitclk_enable\[949] = \UART_RS485:BUART:rx_bitclk\[997]
 Removing Lhs of wire \UART_RS485:BUART:rx_status_0\[1000] = zero[5]
 Removing Lhs of wire \UART_RS485:BUART:rx_status_6\[1010] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:final_capture\[1442] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_24\[1706] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_16\[1716] = zero[5]
-Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_8\[1726] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:final_capture\[1863] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_24\[2079] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_16\[2089] = zero[5]
-Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_8\[2099] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:hwCapture\[2302] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:status_3\[2314] = zero[5]
-Removing Lhs of wire \COUNTER_ENC:CounterUDB:underflow\[2325] = zero[5]
-Removing Lhs of wire \PWM_MOTORS:PWMUDB:runmode_enable\\D\[3379] = \PWM_MOTORS:PWMUDB:control_7\[425]
-Removing Lhs of wire \UART_RS485:BUART:tx_ctrl_mark_last\\D\[3396] = \UART_RS485:BUART:tx_ctrl_mark_last\[940]
-Removing Lhs of wire \UART_RS485:BUART:rx_markspace_status\\D\[3406] = zero[5]
-Removing Lhs of wire \UART_RS485:BUART:rx_parity_error_status\\D\[3408] = zero[5]
-Removing Lhs of wire \UART_RS485:BUART:rx_addr_match_status\\D\[3410] = zero[5]
-Removing Lhs of wire \UART_RS485:BUART:rx_markspace_pre\\D\[3411] = \UART_RS485:BUART:rx_markspace_pre\[1014]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:final_capture\[1418] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_24\[1682] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_16\[1692] = zero[5]
+Removing Lhs of wire \BLINK_05HZ:PWMUDB:MODULE_6:g2:a0:g1:z1:s0:g1:u0:b_8\[1702] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:final_capture\[1839] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_24\[2055] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_16\[2065] = zero[5]
+Removing Lhs of wire \BLINK_25HZ:PWMUDB:MODULE_7:g2:a0:g1:z1:s0:g1:u0:b_8\[2075] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:hwCapture\[2278] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:status_3\[2290] = zero[5]
+Removing Lhs of wire \COUNTER_ENC:CounterUDB:underflow\[2301] = zero[5]
+Removing Lhs of wire \PWM_MOTORS:PWMUDB:runmode_enable\\D\[3355] = \PWM_MOTORS:PWMUDB:control_7\[425]
+Removing Lhs of wire \UART_RS485:BUART:tx_ctrl_mark_last\\D\[3372] = \UART_RS485:BUART:tx_ctrl_mark_last\[940]
+Removing Lhs of wire \UART_RS485:BUART:rx_markspace_status\\D\[3382] = zero[5]
+Removing Lhs of wire \UART_RS485:BUART:rx_parity_error_status\\D\[3384] = zero[5]
+Removing Lhs of wire \UART_RS485:BUART:rx_addr_match_status\\D\[3386] = zero[5]
+Removing Lhs of wire \UART_RS485:BUART:rx_markspace_pre\\D\[3387] = \UART_RS485:BUART:rx_markspace_pre\[1014]
 
 ------------------------------------------------------
 Aliased 0 equations, 28 wires.
@@ -2878,16 +2870,16 @@ topld:  No errors.
 
 CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -dcpsoc3 Generic.v -verilog
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -dcpsoc3 Generic.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 6s.772ms
+Warp synthesis phase: Elapsed time ==> 6s.245ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Wednesday, 10 January 2024 17:01:53
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cyprj -d CY8C5888LTI-LP097 Generic.v -verilog
+cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Wednesday, 10 January 2024 17:51:23
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cyprj -d CY8C5888LTI-LP097 Generic.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.075ms
+Design parsing phase: Elapsed time ==> 0s.074ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -4087,162 +4079,6 @@ Design Equations
             pa_out => MISO(0)__PA ,
             fb => Net_1469 ,
             pad => MISO(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = CS_RTC(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => CS_RTC(0)__PA ,
-            pad => CS_RTC(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = CLK_RTC(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => CLK_RTC(0)__PA ,
-            pad => CLK_RTC(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = MOSI_RTC(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => MOSI_RTC(0)__PA ,
-            pad => MOSI_RTC(0)_PAD );
-        Properties:
-        {
-        }
-
-    Pin : Name = MISO_RTC(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: NOSYNC
-            Out Sync Option: AUTO
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: HI_Z_DIGITAL
-            VTrip: CMOS
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL
-            Initial Value: 0
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => MISO_RTC(0)__PA ,
-            pad => MISO_RTC(0)_PAD );
         Properties:
         {
         }
@@ -7842,7 +7678,7 @@ Analog Clocks                 :    1 :    3 :    4 : 25.00 %
 CapSense Buffers              :    0 :    2 :    2 :  0.00 %
 Digital Filter Block          :    0 :    1 :    1 :  0.00 %
 Interrupts                    :    4 :   28 :   32 : 12.50 %
-IO                            :   41 :    7 :   48 : 85.42 %
+IO                            :   37 :   11 :   48 : 77.08 %
 Segment LCD                   :    0 :    1 :    1 :  0.00 %
 CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
 I2C                           :    0 :    1 :    1 :  0.00 %
@@ -7871,21 +7707,19 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    0 :    4 :    4 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.617ms
-Tech Mapping phase: Elapsed time ==> 0s.757ms
+Technology Mapping: Elapsed time ==> 0s.444ms
+Tech Mapping phase: Elapsed time ==> 0s.537ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Info: apr.M0002: Analog signal "\ADC:Net_35\" is connected to one terminal only. (App=cydsfit)
 Initial Analog Placement Results:
 IO_7@[IOP=(1)][IoId=(7)] : CLK_ENCODER(0) (fixed)
-IO_5@[IOP=(15)][IoId=(5)] : CLK_RTC(0) (fixed)
 IO_3@[IOP=(2)][IoId=(3)] : CS0(0) (fixed)
 IO_2@[IOP=(2)][IoId=(2)] : CS1(0) (fixed)
 IO_1@[IOP=(2)][IoId=(1)] : CS2(0) (fixed)
 IO_0@[IOP=(2)][IoId=(0)] : CS3(0) (fixed)
 IO_5@[IOP=(1)][IoId=(5)] : CS_ENCODER0(0) (fixed)
 IO_1@[IOP=(1)][IoId=(1)] : CS_ENCODER1(0) (fixed)
-IO_4@[IOP=(15)][IoId=(4)] : CS_RTC(0) (fixed)
 IO_5@[IOP=(12)][IoId=(5)] : CS_on_board_IMU(0) (fixed)
 IO_0@[IOP=(0)][IoId=(0)] : CURRENT_SENSE_1(0) (fixed)
 IO_2@[IOP=(0)][IoId=(2)] : CURRENT_SENSE_2(0) (fixed)
@@ -7902,9 +7736,7 @@ IO_1@[IOP=(12)][IoId=(1)] : LED_GREEN(0) (fixed)
 IO_0@[IOP=(12)][IoId=(0)] : LED_RED(0) (fixed)
 IO_7@[IOP=(3)][IoId=(7)] : MISO(0) (fixed)
 IO_6@[IOP=(1)][IoId=(6)] : MISO_ENCODER(0) (fixed)
-IO_2@[IOP=(12)][IoId=(2)] : MISO_RTC(0) (fixed)
 IO_7@[IOP=(0)][IoId=(7)] : MOSI(0) (fixed)
-IO_3@[IOP=(12)][IoId=(3)] : MOSI_RTC(0) (fixed)
 IO_1@[IOP=(3)][IoId=(1)] : MOTOR_1A(0) (fixed)
 IO_2@[IOP=(3)][IoId=(2)] : MOTOR_1B(0) (fixed)
 IO_4@[IOP=(3)][IoId=(4)] : MOTOR_2A(0) (fixed)
@@ -7922,14 +7754,12 @@ DSM[0]@[FFB(DSM,0)] : \ADC:DSM\
 Vref[6]@[FFB(Vref,6)] : \ADC:vRef_2\
 Analog Placement Results:
 IO_7@[IOP=(1)][IoId=(7)] : CLK_ENCODER(0) (fixed)
-IO_5@[IOP=(15)][IoId=(5)] : CLK_RTC(0) (fixed)
 IO_3@[IOP=(2)][IoId=(3)] : CS0(0) (fixed)
 IO_2@[IOP=(2)][IoId=(2)] : CS1(0) (fixed)
 IO_1@[IOP=(2)][IoId=(1)] : CS2(0) (fixed)
 IO_0@[IOP=(2)][IoId=(0)] : CS3(0) (fixed)
 IO_5@[IOP=(1)][IoId=(5)] : CS_ENCODER0(0) (fixed)
 IO_1@[IOP=(1)][IoId=(1)] : CS_ENCODER1(0) (fixed)
-IO_4@[IOP=(15)][IoId=(4)] : CS_RTC(0) (fixed)
 IO_5@[IOP=(12)][IoId=(5)] : CS_on_board_IMU(0) (fixed)
 IO_0@[IOP=(0)][IoId=(0)] : CURRENT_SENSE_1(0) (fixed)
 IO_2@[IOP=(0)][IoId=(2)] : CURRENT_SENSE_2(0) (fixed)
@@ -7946,9 +7776,7 @@ IO_1@[IOP=(12)][IoId=(1)] : LED_GREEN(0) (fixed)
 IO_0@[IOP=(12)][IoId=(0)] : LED_RED(0) (fixed)
 IO_7@[IOP=(3)][IoId=(7)] : MISO(0) (fixed)
 IO_6@[IOP=(1)][IoId=(6)] : MISO_ENCODER(0) (fixed)
-IO_2@[IOP=(12)][IoId=(2)] : MISO_RTC(0) (fixed)
 IO_7@[IOP=(0)][IoId=(7)] : MOSI(0) (fixed)
-IO_3@[IOP=(12)][IoId=(3)] : MOSI_RTC(0) (fixed)
 IO_1@[IOP=(3)][IoId=(1)] : MOTOR_1A(0) (fixed)
 IO_2@[IOP=(3)][IoId=(2)] : MOTOR_1B(0) (fixed)
 IO_4@[IOP=(3)][IoId=(4)] : MOTOR_2A(0) (fixed)
@@ -7965,14 +7793,14 @@ IO_3@[IOP=(0)][IoId=(3)] : VOLTAGE_SENSE_2(0) (fixed)
 DSM[0]@[FFB(DSM,0)] : \ADC:DSM\
 Vref[6]@[FFB(Vref,6)] : \ADC:vRef_2\
 
-Analog Placement phase: Elapsed time ==> 0s.076ms
+Analog Placement phase: Elapsed time ==> 0s.047ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Net "AmuxEye::AMuxHw" overuses wire "GPIO P1[3] Sw__1b"
 Net "AmuxEye::AMuxHw" overuses wire "GPIO P1[3] Wire"
 Net "AmuxNose::AMuxHw" overuses wire "GPIO P1[3] Sw__1b"
 Net "AmuxNose::AMuxHw" overuses wire "GPIO P1[3] Wire"
-Analog Routing phase: Elapsed time ==> 0s.149ms
+Analog Routing phase: Elapsed time ==> 0s.087ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -8067,8 +7895,8 @@ Map of net to items {
     agl3_x_p2_7
     agl5_x_p0_5
     agl5_x_p0_1
-    agl4_x_p0_4
     agl4_x_p0_0
+    agl4_x_p0_4
     p1_3
     p1_0
     p15_1
@@ -8079,8 +7907,8 @@ Map of net to items {
     p2_7
     p0_5
     p0_1
-    p0_4
     p0_0
+    p0_4
   }
   Net: AmuxNet::\ADC:AMux\ {
     dsm_0_vminus
@@ -8137,8 +7965,8 @@ Map of item to net {
   agl3_x_p2_7                                      -> AmuxNet::AMuxHw
   agl5_x_p0_5                                      -> AmuxNet::AMuxHw
   agl5_x_p0_1                                      -> AmuxNet::AMuxHw
-  agl4_x_p0_4                                      -> AmuxNet::AMuxHw
   agl4_x_p0_0                                      -> AmuxNet::AMuxHw
+  agl4_x_p0_4                                      -> AmuxNet::AMuxHw
   dsm_0_vminus_x_dsm_0_vminus_vssa                 -> AmuxNet::\ADC:AMux\
   dsm_0_vminus_vssa                                -> AmuxNet::\ADC:AMux\
 }
@@ -8332,11 +8160,11 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.376ms
+Analog Code Generation phase: Elapsed time ==> 0s.256ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 5.8 sec.
+I2076: Total run-time: 4.5 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -8360,14 +8188,14 @@ PLD Packing Summary
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.002ms
+PLD Packing: Elapsed time ==> 0s.003ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.486ms
+Partitioning: Elapsed time ==> 0s.376ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -13229,86 +13057,6 @@ Pin : Name = LED_GREEN(0)
     {
     }
 
-[IoId=2]: 
-Pin : Name = MISO_RTC(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: NOSYNC
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_DIGITAL
-        VTrip: CMOS
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => MISO_RTC(0)__PA ,
-        pad => MISO_RTC(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=3]: 
-Pin : Name = MOSI_RTC(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: CMOS_OUT
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => MOSI_RTC(0)__PA ,
-        pad => MOSI_RTC(0)_PAD );
-    Properties:
-    {
-    }
-
 [IoId=4]: 
 Pin : Name = RS_485_EN(0)
     Attributes:
@@ -13558,86 +13306,6 @@ Pin : Name = EMG_6(0)
     {
     }
 
-[IoId=4]: 
-Pin : Name = CS_RTC(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: CMOS_OUT
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => CS_RTC(0)__PA ,
-        pad => CS_RTC(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=5]: 
-Pin : Name = CLK_RTC(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: CMOS_OUT
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => CLK_RTC(0)__PA ,
-        pad => CLK_RTC(0)_PAD );
-    Properties:
-    {
-    }
-
 ARM group 0: empty
 CAN group 0: empty
 Cache group 0: empty
@@ -13881,8 +13549,6 @@ Port | Pin | Fixed |      Type |       Drive Mode |               Name | Connect
 -----+-----+-------+-----------+------------------+--------------------+-------------------------------------------------
   12 |   0 |     * |      NONE |         CMOS_OUT |         LED_RED(0) | In(Net_7325)
      |   1 |     * |      NONE |         CMOS_OUT |       LED_GREEN(0) | In(Net_7353)
-     |   2 |     * |      NONE |     HI_Z_DIGITAL |        MISO_RTC(0) | 
-     |   3 |     * |      NONE |         CMOS_OUT |        MOSI_RTC(0) | 
      |   4 |     * |      NONE |         CMOS_OUT |       RS_485_EN(0) | In(Net_6020)
      |   5 |     * |      NONE |         CMOS_OUT | CS_on_board_IMU(0) | In(Net_1630)
      |   6 |     * |      NONE |     HI_Z_DIGITAL |        RS485_RX(0) | FB(Net_6196)
@@ -13890,39 +13556,37 @@ Port | Pin | Fixed |      Type |       Drive Mode |               Name | Connect
 -----+-----+-------+-----------+------------------+--------------------+-------------------------------------------------
   15 |   0 |     * |      NONE |      HI_Z_ANALOG |           EMG_5(0) | In(AMuxHw_Decoder_one_hot_10), Analog(Net_10613)
      |   1 |     * |      NONE |      HI_Z_ANALOG |           EMG_6(0) | In(AMuxHw_Decoder_one_hot_11), Analog(Net_10614)
-     |   4 |     * |      NONE |         CMOS_OUT |          CS_RTC(0) | 
-     |   5 |     * |      NONE |         CMOS_OUT |         CLK_RTC(0) | 
 -------------------------------------------------------------------------------------------------------------------------
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.322ms
-Digital Placement phase: Elapsed time ==> 7s.127ms
+Digital component placer commit/Report: Elapsed time ==> 0s.240ms
+Digital Placement phase: Elapsed time ==> 5s.871ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "Generic_r.vh2" --pcf-path "Generic.pco" --des-name "Generic" --dsf-path "Generic.dsf" --sdc-path "Generic.sdc" --lib-path "Generic_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 7s.767ms
+Digital Routing phase: Elapsed time ==> 5s.714ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.804ms
+Bitstream Generation phase: Elapsed time ==> 0s.649ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.136ms
+Bitstream Verification phase: Elapsed time ==> 0s.102ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in Generic_timing.html.
-Static timing analysis phase: Elapsed time ==> 1s.614ms
+Static timing analysis phase: Elapsed time ==> 1s.338ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.530ms
+Design database save phase: Elapsed time ==> 0s.417ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 19s.556ms
+cydsfit: Elapsed time ==> 15s.187ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 19s.558ms
-API generation phase: Elapsed time ==> 6s.214ms
-Dependency generation phase: Elapsed time ==> 0s.029ms
+Fitter phase: Elapsed time ==> 15s.188ms
+API generation phase: Elapsed time ==> 6s.760ms
+Dependency generation phase: Elapsed time ==> 0s.027ms
 Cleanup phase: Elapsed time ==> 0s.002ms
