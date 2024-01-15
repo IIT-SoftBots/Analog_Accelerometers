@@ -266,10 +266,10 @@ void InitIMUgeneral()
 void ReadIMU(int n)
 {
     if (c_mem.imu.IMU_conf[n][0]) ReadAcc(n);
-    if (c_mem.imu.IMU_conf[n][1]) ReadGyro(n);
-    if (c_mem.imu.IMU_conf[n][2]) ReadMag(n);
-    if (c_mem.imu.IMU_conf[n][3]) ReadQuat(n);
-    if (c_mem.imu.IMU_conf[n][4]) ReadTemp(n);
+  //  if (c_mem.imu.IMU_conf[n][1]) ReadGyro(n);
+  //  if (c_mem.imu.IMU_conf[n][2]) ReadMag(n);
+  //  if (c_mem.imu.IMU_conf[n][3]) ReadQuat(n);
+  // if (c_mem.imu.IMU_conf[n][4]) ReadTemp(n);
 }
 
 /*******************************************************************************
@@ -283,9 +283,9 @@ void ReadAcc(int n)
 	
 	//read X
     low=ReadControlRegisterIMU(MPU9250_ACCEL_XOUT_L);
-    SPI_delay();
+    // SPI_delay();
     high=ReadControlRegisterIMU(MPU9250_ACCEL_XOUT_H);
-    SPI_delay();
+    // SPI_delay();
     
 	Accel[row][0] = high; 
 	Accel[row][1] = low; 
@@ -293,9 +293,9 @@ void ReadAcc(int n)
 			
 	//read Y
     low=ReadControlRegisterIMU(MPU9250_ACCEL_YOUT_L);
-    SPI_delay();
+    // SPI_delay();
 	high=ReadControlRegisterIMU(MPU9250_ACCEL_YOUT_H);
-    SPI_delay();
+    // SPI_delay();
 
 	Accel[row][2] = high; 
 	Accel[row][3] = low; 
@@ -303,9 +303,9 @@ void ReadAcc(int n)
 		
 	//read Z
     low=ReadControlRegisterIMU(MPU9250_ACCEL_ZOUT_L);
-    SPI_delay();
+    // SPI_delay();
     high=ReadControlRegisterIMU(MPU9250_ACCEL_ZOUT_H);
-    SPI_delay();
+    // SPI_delay();
     
 	Accel[row][4] = high; 
 	Accel[row][5] = low;
@@ -508,7 +508,7 @@ void ReadAllIMUs(){
             tmp = Accel[IMU_connected[k_imu]][2*j];
             g_imuNew[k_imu].accel_value[j] = (int16)(tmp<<8 | Accel[IMU_connected[k_imu]][2*j + 1]);
         }
-        
+    /*    
         for (j = 0; j < 3; j++) {
             tmp = Gyro[IMU_connected[k_imu]][2*j];
             g_imuNew[k_imu].gyro_value[j] = (int16)(tmp<<8 | Gyro[IMU_connected[k_imu]][2*j + 1]);
@@ -525,6 +525,7 @@ void ReadAllIMUs(){
         
         tmp = Temp[IMU_connected[k_imu]][0];
         g_imuNew[k_imu].temp_value = (int16)(tmp<<8 | Temp[IMU_connected[k_imu]][1]);
+        */
     }
 }
 

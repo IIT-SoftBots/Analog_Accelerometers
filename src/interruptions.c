@@ -278,15 +278,15 @@ void function_scheduler(void) {
     timer_value0 = (uint32)MY_TIMER_ReadCounter();
     // Start ADC Conversion, SOC = 1
 
-    ADC_SOC_Write(0x01); 
+  //  ADC_SOC_Write(0x01); 
     
     // Check Interrupt 
-
+ /*
     if (interrupt_flag){
         interrupt_flag = FALSE;
         interrupt_manager();
     }
-    
+   
     switch(c_mem.dev.dev_type){
         case SOFTHAND_PRO:
         
@@ -483,7 +483,7 @@ void function_scheduler(void) {
     //---------------------------------- Control Overcurrent
 
     overcurrent_control();
-    
+  //  
     // Check Interrupt 
     
     if (interrupt_flag){
@@ -492,7 +492,7 @@ void function_scheduler(void) {
     }
 
     //---------------------------------- Calibration 
-
+ 
     // Divider 10, freq = 500 Hz
     if (calib.enabled == TRUE) {
         if (counter_calibration == CALIBRATION_DIV) {
@@ -509,6 +509,7 @@ void function_scheduler(void) {
         interrupt_manager();
     }
     
+   
     if (c_mem.dev.dev_type == SOFTHAND_PRO){   
     
         //---------------------------------- Rest position check
@@ -616,19 +617,19 @@ void function_scheduler(void) {
         interrupt_flag = FALSE;
         interrupt_manager();
     }
-   
+   */
     //---------------------------------- Read IMUs
-    if (c_mem.imu.read_imu_flag) {
+   // if (c_mem.imu.read_imu_flag) {
         ReadAllIMUs();      // IMU reading is atomic, no RS485 request is handled
         
         if (interrupt_flag){
             interrupt_flag = FALSE;
             interrupt_manager();
         }
-    }
+  //  }
    
     //---------------------------------- Update States
-    
+  /*  
     // Load k-1 state
     memcpy( &g_adc_measOld, &g_adc_meas, sizeof(g_adc_meas) );
     memcpy( &g_measOld, &g_meas, sizeof(g_meas) );
@@ -636,7 +637,8 @@ void function_scheduler(void) {
 
     // Load k+1 state        
     memcpy( &g_ref, &g_refNew, sizeof(g_ref) );
-    memcpy( &g_imu, &g_imuNew, sizeof(g_imu) );
+    */
+  //  memcpy( &g_imu, &g_imuNew, sizeof(g_imu) );
                 
     if (interrupt_flag){
         interrupt_flag = FALSE;

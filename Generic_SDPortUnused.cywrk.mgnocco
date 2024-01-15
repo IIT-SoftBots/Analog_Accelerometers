@@ -236,6 +236,25 @@
 <VisibleNodeIds>
 <v>Generic_SDPortUnused</v>
 <v>Generic_SDPortUnused\Generic</v>
+<v>Generic_SDPortUnused\Generic\CortexM3</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_AMux.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_INT.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_IRQ.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_N_CHANNELS_USED.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_N_CHANNELS_USED_PM.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_PM.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SOC.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SOC_PM.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_STATUS.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_theACLK.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_05HZ.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_05HZ_PM.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\BLINK_25HZ.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -336,7 +355,9 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Generic.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Generic.cydsn\Generic.cydwr" />
+<name v=".\src\main.c" />
+<name v=".\src\command_processing.c" />
+<name v=".\src\interruptions.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -344,7 +365,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1258, 485" SelectedTabbedMdiWindow="7fa8ed63-9360-4d35-8abf-fbae5ee3175e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\TopDesign\TopDesign.cysch" Guid="418596af-6a58-43fb-9017-45e0bb9858c1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\ADC_Test\Generic.cydsn\Generic.cydwr" Guid="7fa8ed63-9360-4d35-8abf-fbae5ee3175e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1235, 459" SelectedTabbedMdiWindow="45da1668-9107-4f87-85c8-b0d80719d439"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\TopDesign\TopDesign.cysch" Guid="45da1668-9107-4f87-85c8-b0d80719d439" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\main.c" Guid="f492a488-0047-49b1-9335-7c3ef426231b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\command_processing.c" Guid="150085b8-b255-44d6-8fdd-12d065e2e4ba" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\interruptions.c" Guid="18d8c37d-3584-4009-82fe-773a217a68e6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
