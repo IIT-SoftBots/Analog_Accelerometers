@@ -131,6 +131,7 @@ int main()
     SHIFTREG_ENC_3_Start();
 
     // ADC
+    /*
     ADC_Set_N_Channels();           // Set right number of ADC channels to sample
     ADC_Start();
     ADC_SOC_Write(0x01);            // Force first read cycle.
@@ -142,7 +143,7 @@ int main()
     CyDmaTdSetAddress(DMA_TD[0], LO16((uint32)ADC_DEC_SAMP_PTR), LO16((uint32)ADC_buf));                    // Set Register Address.
     CyDmaChSetInitialTd(DMA_Chan, DMA_TD[0]);                                                               // Initialize Channel.
     CyDmaChEnable(DMA_Chan, 1);                                                                             // Enable DMA.
-    
+    */
     // TIMER
     MY_TIMER_Start();           
     PACER_TIMER_Start();    
