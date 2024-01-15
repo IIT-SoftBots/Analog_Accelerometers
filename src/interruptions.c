@@ -621,7 +621,7 @@ void function_scheduler(void) {
     //---------------------------------- Read IMUs
    // if (c_mem.imu.read_imu_flag) {
         ReadAllIMUs();      // IMU reading is atomic, no RS485 request is handled
-        
+        ReadExtraIMUs();
         if (interrupt_flag){
             interrupt_flag = FALSE;
             interrupt_manager();

@@ -151,6 +151,7 @@ void ReadQuat(int n);//reads quaternion of IMU n
 void ReadTemp(int n);//reads temperature of IMU n
 void ReadIMU(int n); //reads all of data from IMU n
 void ReadAllIMUs(); //reads all data from all connected IMUs
+void ReadExtraIMUs(); //reads all data from IMUs connected to 'ADC port'
 uint8 ReadControlRegisterIMU(uint8 address);
 void WriteControlRegisterIMU(uint8 address, uint8 dta);
 void ChipSelectorIMU(int n);

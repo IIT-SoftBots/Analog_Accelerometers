@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Generic_SDPortUnused\Generic\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>Generic_SDPortUnused</v>
 <v>Generic_SDPortUnused\Generic</v>
@@ -71,7 +71,6 @@
 <v>Generic_SDPortUnused\Generic\Header Files\Encoder_functions.h</v>
 <v>Generic_SDPortUnused\Generic\Header Files\FIRMWARE_CONFIGURATION.h</v>
 <v>Generic_SDPortUnused\Generic\Header Files\globals.h</v>
-<v>Generic_SDPortUnused\Generic\Header Files\IMU_functions.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -106,6 +105,8 @@
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_ENCODER_LINE.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_ENCODER_LINE_PM.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU_1.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU_1_PM.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\Chip_Select_IMU_PM.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLK_ENCODER.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CLOCK_ENCODERS.lst</v>
@@ -124,6 +125,8 @@
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS1.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS2.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS3.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS4.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CS5.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cy_em_eeprom.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\CyBootAsmGnu.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\cybootloader.lst</v>
@@ -152,8 +155,10 @@
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\LED_RED.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\main.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MISO.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MISO_1.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MISO_ENCODER.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOSI.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOSI_1.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_1A.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_1B.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\MOTOR_2A.lst</v>
@@ -185,6 +190,7 @@
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RS_485_EN.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\RS485_CTS.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SCLK.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SCLK_1.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_1.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_1_PM.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_2.lst</v>
@@ -192,6 +198,10 @@
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_3.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SHIFTREG_ENC_3_PM.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_1.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_1_INT.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_1_IntClock.lst</v>
+<v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_1_PM.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_INT.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\SPI_IMU_PM.lst</v>
 <v>Generic_SDPortUnused\Generic\CortexM3\ARM_GCC_541\Release\Listing Files\timer_clock.lst</v>
@@ -232,7 +242,8 @@
 <v>Generic_SDPortUnused\Generic\Counter_v3_0.pdf</v>
 <v>Generic_SDPortUnused\Generic\cy_clock_v2_20</v>
 <v>Generic_SDPortUnused\Generic\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
-<v>Generic_SDPortUnused\Generic\cy_constant_v1_0.pdf</v>
+<v>Generic_SDPortUnused\Generic\cy_constant_v1_0</v>
+<v>Generic_SDPortUnused\Generic\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
 <v>Generic_SDPortUnused\Generic\cy_isr_v1_70</v>
 <v>Generic_SDPortUnused\Generic\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
 <v>Generic_SDPortUnused\Generic\cy_pins_v2_10</v>
@@ -259,7 +270,8 @@
 <v>Generic_SDPortUnused\Generic\PWM_v3_30\PWM_v3_30.pdf</v>
 <v>Generic_SDPortUnused\Generic\ShiftReg_v2_30</v>
 <v>Generic_SDPortUnused\Generic\ShiftReg_v2_30\ShiftReg_v2_30.pdf</v>
-<v>Generic_SDPortUnused\Generic\SPI_Master_v2_50.pdf</v>
+<v>Generic_SDPortUnused\Generic\SPI_Master_v2_50</v>
+<v>Generic_SDPortUnused\Generic\SPI_Master_v2_50\SPI_Master_v2_50.pdf</v>
 <v>Generic_SDPortUnused\Generic\Timer_v2_70</v>
 <v>Generic_SDPortUnused\Generic\Timer_v2_70\Timer_v2_70.pdf</v>
 <v>Generic_SDPortUnused\Generic\UART_v2_50.pdf</v>
@@ -279,15 +291,14 @@
 <v>Generic_SDPortUnused\Generic\Counter_v3_0.pdf</v>
 <v>Generic_SDPortUnused\Generic\cy_clock_v2_20</v>
 <v>Generic_SDPortUnused\Generic\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
-<v>Generic_SDPortUnused\Generic\cy_constant_v1_0.pdf</v>
+<v>Generic_SDPortUnused\Generic\cy_constant_v1_0</v>
+<v>Generic_SDPortUnused\Generic\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
 <v>Generic_SDPortUnused\Generic\cy_isr_v1_70</v>
 <v>Generic_SDPortUnused\Generic\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
 <v>Generic_SDPortUnused\Generic\cy_pins_v2_10</v>
 <v>Generic_SDPortUnused\Generic\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
 <v>Generic_SDPortUnused\Generic\cy_pins_v2_20</v>
 <v>Generic_SDPortUnused\Generic\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>Generic_SDPortUnused\Generic\cy_srff_v1_0.pdf</v>
-<v>Generic_SDPortUnused\Generic\cy_sync_v1_0.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -306,6 +317,14 @@
 <name v=".\src\main.c" />
 <name v=".\src\command_processing.c" />
 <name v=".\src\interruptions.c" />
+<name v=".\src\IMU_functions.c" />
+<name v=".\Generic.cydsn\Generated_Source\PSoC5\RESET_FF.c" />
+<name v=".\Generic.cydsn\Generic.cydwr" />
+<name v=".\Generic.cydsn\Generated_Source\PSoC5\SPI_IMU.h" />
+<name v=".\Generic.cydsn\Generated_Source\PSoC5\SPI_IMU.c" />
+<name v=".\src\globals.h" />
+<name v=".\src\globals.c" />
+<name v=".\src\IMU_functions.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -313,7 +332,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1235, 459" SelectedTabbedMdiWindow="45da1668-9107-4f87-85c8-b0d80719d439"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\TopDesign\TopDesign.cysch" Guid="45da1668-9107-4f87-85c8-b0d80719d439" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\main.c" Guid="f492a488-0047-49b1-9335-7c3ef426231b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\command_processing.c" Guid="150085b8-b255-44d6-8fdd-12d065e2e4ba" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\interruptions.c" Guid="18d8c37d-3584-4009-82fe-773a217a68e6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1235, 459" SelectedTabbedMdiWindow="45da1668-9107-4f87-85c8-b0d80719d439"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e6c53592-2600-47bd-bb84-e80a1b9fa9d1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\TopDesign\TopDesign.cysch" Guid="45da1668-9107-4f87-85c8-b0d80719d439" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\main.c" Guid="f492a488-0047-49b1-9335-7c3ef426231b" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\command_processing.c" Guid="150085b8-b255-44d6-8fdd-12d065e2e4ba" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\interruptions.c" Guid="18d8c37d-3584-4009-82fe-773a217a68e6" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\IMU_functions.c" Guid="13e3704e-c9af-4aad-bfe1-cdd008e40e36" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generated_Source\PSoC5\RESET_FF.c" Guid="48a622c4-47f5-431c-bfef-76d20e2fb6ff" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generic.cydwr" Guid="2bdd0b8f-499c-4de4-ba93-3683bf324361" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generated_Source\PSoC5\SPI_IMU.h" Guid="c6e43787-ac9f-4394-9f2b-ab27077f4604" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\Generic.cydsn\Generated_Source\PSoC5\SPI_IMU.c" Guid="44797a4e-62d9-4c8a-83f9-def6860b66f1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\globals.h" Guid="7da24dfc-ae26-4bcc-8c45-808fe30b06ef" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\globals.c" Guid="822207f9-125b-43e4-a0b7-07b8249b91e1" /><DocumentWindow Key="C:\Users\mgnocco\Documents\Git\PSoC5\Analog_Accelerometers\src\IMU_functions.h" Guid="6aecec68-278d-4f16-b8c8-bcf199c0da6c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
